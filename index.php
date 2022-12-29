@@ -179,7 +179,43 @@
             <div class="home__item-40-16 uk-text-center">
                 <h2 class="uk-h2 home__title">Học ở Chip Chip như thế nào?</h2>
             </div>
+            <div class="home__item-40-16 uk-grid uk-child-width-1-3@l" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'txt' => 'Chọn giáo viên',
+                    ),
+                    array(
+                        'txt' => 'Đặt lịch học',
+                    ),
+                    array(
+                        'txt' => 'Vào lớp học 1-1',
+                    ),
+                );
+                foreach ($data as $k=>$v): ?>
+                <div class="home__hocchipchip__item">
+                    <div class="uk-grid uk-child-width-1-1 uk-grid-small" uk-grid>
+                        <div class="uk-width-1-1@l uk-width-auto">
+                            <div class="home__hocchipchip__boxStep" data-count="<?= $k+1 ?>">
 
+                            </div>
+                        </div>
+                        <div class="uk-width-1-1@l uk-width-expand">
+                            <div class="uk-text-left uk-text-center@m">
+                                <div class="item__10"><h4 class="uk-h4 home__hocchipchip__title uk-margin-remove"><?= $v['txt'] ?></h4></div>
+                                <div class="item__10 home__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla</div>
+                                <div class="item__10 uk-text-center">
+                                    <div class="uk-cover-container uk-flex-inline">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="307" height="269"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
         </div>
         <!--/Học ở Chip Chip như thế nào?-->
 

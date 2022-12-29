@@ -136,6 +136,70 @@
       }
     }
   }
+  &__hocchipchip{
+    &__item{
+      position: relative;
+      &:before{
+
+      }
+      &:nth-child(n+2){
+        &:before{
+          @include media-breakpoint-down('xs'){
+            content: "";
+            height: 100%;
+            border-left: 1px solid #171717;
+            position: absolute;
+            bottom: 100%;
+            left: 53px;
+            display: flex;
+          }
+        }
+      }
+    }
+    &__boxStep{
+      text-align: center;
+      position: relative;
+      &:after{
+        .home__hocchipchip__item:nth-child(n+2) &{
+          @include media-breakpoint-up('m'){
+            content: "";
+            position: absolute;
+            border-top: 1px solid #171717;
+            right: 51%;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+          }
+        }
+      }
+      &:before{
+        position: relative;
+        z-index: 10;
+        content: attr(data-count);
+        $max:70px;
+        $min:44px;
+        @include fluidx($max,$min,width);
+        @include fluidx($max,$min,height);
+        border: 1px solid #000000;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-family: $font-HiraKakuStd-W8;
+        color: #000000;
+        background-color: #fff;
+        @include media-breakpoint-up('m'){
+          font-size: 2rem;
+        }
+      }
+    }
+    &__title{
+      color: #171717;
+      font-family: $font-iCiel-Graphik-Medium;
+    }
+  }
   &__hanhtrinh{
     &__card{
       background-color: #212121;
