@@ -1,0 +1,25 @@
+// Color
+$primary-color: #4caf50;
+$secondary-color: #ff9800;
+
+// Fonts families
+$font-iCiel-Graphik-Regular: 'iCiel Graphik Regular',sans-serif;
+$font-iCiel-Graphik-Medium: 'iCiel Graphik Medium',sans-serif;
+$font-iCiel-Graphik-Bold: 'iCiel Graphik Bold',sans-serif;
+$font-HiraKakuStd-W8: 'HiraKakuStd-W8',sans-serif;
+
+// Font-size base
+$base-font: 16px !default;
+$base-design-font: 18px !default;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 375px,
+  s: 640px,
+  m: 960px,
+  l: 1200px,
+  xl: 1600px
+) !default;

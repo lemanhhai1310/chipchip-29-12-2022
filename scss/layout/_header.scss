@@ -1,0 +1,58 @@
+.header{
+  z-index: 1000;
+  background-color: #fff;
+  &.uk-active,
+  &.uk-sticky-below{
+    background-color: #fff;
+  }
+  &.uk-sticky-below{
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  }
+  .uk-logo{
+    img{
+      @include fluidx(50px,40px,height);
+    }
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        text-transform: inherit;
+        font-family: $font-iCiel-Graphik-Regular;
+        font-size: 15px;
+        @extend .header__navItem;
+      }
+    }
+  }
+  .uk-navbar-right{
+    gap: 15px;
+  }
+  .uk-navbar-toggle,
+  .uk-navbar-item{
+    @extend .header__navItem;
+  }
+  &__navItem{
+    min-height: 60px;
+    @include media-breakpoint-up('m'){
+      min-height: 80px;
+    }
+  }
+  &__btn{
+    text-transform: inherit;
+    font-family: $font-iCiel-Graphik-Medium;
+    border-radius: 5px;
+    &.uk-button-default{
+      border-color: #{$primary-color};
+      color: #{$primary-color};
+      &:hover{
+        background: #{$primary-color};
+        color: #ffffff;
+      }
+    }
+    &.uk-button-primary{
+      background: #{$primary-color};
+      &:hover{
+        background: rgba($primary-color,.8);
+      }
+    }
+  }
+}
