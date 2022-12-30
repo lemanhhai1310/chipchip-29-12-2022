@@ -28,7 +28,7 @@
                 <div class="uk-navbar-left"><a href="" class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a></div>
                 <div class="uk-navbar-center uk-visible@m">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="">Tìm giáo viên</a></li>
+                        <li class="uk-active"><a href="giaovien.php">Tìm giáo viên</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Liên hệ</a></li>
                     </ul>
