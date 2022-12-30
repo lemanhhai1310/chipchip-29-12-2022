@@ -12,6 +12,20 @@ const app = {
         const header = x('.header');
         const video_intro = x('#video-intro');
         const bottomSticky = x('.bottomSticky');
+        const sidebar = x('.sidebar');
+
+        function sideBarSticky() {
+            if (sidebar){
+                var offsetSidebar = header.offsetHeight+15 + 'px';
+                var stickySidebar = UIkit.sticky(sidebar, {
+                    'offset': offsetSidebar,
+                    'start': 0.01 + 'px',
+                    'end': true,
+                });
+                console.log('offsetSidebar',offsetSidebar);
+            }
+        }
+        sideBarSticky();
 
         if (video_intro){
             console.log('video_intro',video_intro);
@@ -28,7 +42,7 @@ const app = {
             }
             if (bottomSticky){
                 var offsetBottomSticky = bottomSticky.offsetHeight + 'px';
-                console.log('offsetHeader',offsetBottomSticky);
+                console.log('offsetBottomSticky',offsetBottomSticky);
                 app.style.paddingBottom = offsetBottomSticky;
             }
         }

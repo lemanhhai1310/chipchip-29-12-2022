@@ -23,7 +23,24 @@
 </div>
 <!--/Nền tảng tìm giáo viên nước ngoài kèm riêng cho trẻ em lớn nhất-->
 
+<div class="uk-background-muted uk-section-xsmall">
+    <div class="uk-container">
+        <div class="uk-grid uk-grid-small" uk-grid>
+            <div class="uk-width-expand">
+                <div class="uk-height-viewport">
 
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+                <aside class="sidebar">
+                    <div class="uk-card uk-card-body uk-border-rounded uk-padding-small uk-card-default uk-height-min-medium">
+
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
