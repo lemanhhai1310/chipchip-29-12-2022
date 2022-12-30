@@ -11,6 +11,7 @@ const app = {
         const app = x('.app');
         const header = x('.header');
         const video_intro = x('#video-intro');
+        const bottomSticky = x('.bottomSticky');
 
         if (video_intro){
             console.log('video_intro',video_intro);
@@ -24,6 +25,11 @@ const app = {
                 var offsetHeader = header.offsetHeight + 'px';
                 console.log('offsetHeader',offsetHeader);
                 app.style.paddingTop = offsetHeader;
+            }
+            if (bottomSticky){
+                var offsetBottomSticky = bottomSticky.offsetHeight + 'px';
+                console.log('offsetHeader',offsetBottomSticky);
+                app.style.paddingBottom = offsetBottomSticky;
             }
         }
         paddingTopApp();

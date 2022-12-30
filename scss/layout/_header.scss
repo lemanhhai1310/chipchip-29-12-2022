@@ -54,5 +54,11 @@
         background: rgba($primary-color,.8);
       }
     }
+    &--bottom{
+      @include media-breakpoint-down('xs'){
+        border-radius: 0;
+        line-height: 46px;
+      }
+    }
   }
 }
