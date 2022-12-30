@@ -219,6 +219,30 @@
         </div>
         <!--/Học ở Chip Chip như thế nào?-->
 
+        <!--Chương trình học cá nhân hoá theo nhu cầu-->
+        <div class="home__boxCardMB uk-border-rounded home__item-70-40">
+            <div class="uk-grid uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <div class="uk-cover-container">
+                        <img src="images/noimage.jpg" uk-cover="" alt="">
+                        <canvas width="617" height="347"></canvas>
+                    </div>
+                </div>
+                <div class="uk-text-center uk-text-left@m">
+                    <div class="home__item-40-16">
+                        <h2 class="uk-h2 home__title">Chương trình học cá nhân <br class="uk-visible@m"> hoá theo nhu cầu</h2>
+                    </div>
+                    <div class="home__item-40-16 home__txt">
+                        Dù muốn tăng cường phản xạ giao tiếp, củng cố & sửa lỗi phát âm hay chuẩn bị cho kỳ thi Cambridge sắp tới, giáo viên Chip Chip sẽ sử dụng các chương trình phù hợp với học sinh.
+                    </div>
+                    <div class="home__item-40-16">
+                        <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Tìm hiểu thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Chương trình học cá nhân hoá theo nhu cầu-->
+
         <!--Cam kết 100% hài lòng-->
         <div class="home__boxCardMB uk-border-rounded home__item-70-40">
             <div class="item__16 uk-position-relative home__camket__boxLine uk-text-center">
