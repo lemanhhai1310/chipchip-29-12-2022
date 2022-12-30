@@ -25,7 +25,7 @@
     <header class="header uk-position-top uk-position-fixed uk-position-z-index" uk-sticky>
         <div class="uk-container">
             <nav class="uk-navbar-container uk-navbar  uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left"><a href="" class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a></div>
+                <div class="uk-navbar-left"><a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a></div>
                 <div class="uk-navbar-center uk-visible@m">
                     <ul class="uk-navbar-nav">
                         <li class="uk-active"><a href="giaovien.php">Tìm giáo viên</a></li>

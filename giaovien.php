@@ -25,10 +25,17 @@
 
 <div class="uk-background-muted uk-section-xsmall">
     <div class="uk-container">
-        <div class="uk-grid uk-grid-small uk-grid-30-m" uk-grid>
+        <div class="uk-grid uk-grid-small uk-grid-20-m" uk-grid>
             <div class="uk-width-expand">
                 <div class="home__item-70-40">
+                    <?php for ($i=1;$i<=4;$i++): ?>
+                    <div class="uk-card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded uk-height-min-small">
 
+                    </div>
+                    <?php endfor; ?>
+                    <div class="uk-margin-top uk-text-center">
+                        <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Hiển thị thêm</a>
+                    </div>
                 </div>
 
                 <!--Câu hỏi thường gặp về giáo viên-->
