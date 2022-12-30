@@ -243,6 +243,53 @@
         </div>
         <!--/Chương trình học cá nhân hoá theo nhu cầu-->
 
+        <!--Tự hào giúp hàng ngàn trẻ em nói tiếng Anh tự tin, phát âm chuẩn-->
+        <div class="home__boxCardMB uk-border-rounded home__item-70-40">
+            <div class="home__item-40-16 uk-text-center">
+                <h2 class="uk-h2 home__title">Tự hào giúp hàng ngàn trẻ em nói tiếng <br class="uk-visible@m"> Anh tự tin, phát âm chuẩn</h2>
+            </div>
+            <div class="home__item-40-16 uk-slider" uk-slider>
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container uk-slider-container-offset">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid uk-grid-small" uk-grid>
+                            <?php for ($i=1;$i<=8;$i++): ?>
+                            <li>
+                                <div class="home__giaovien__card uk-text-center uk-card uk-card-default uk-border-rounded uk-height-min-small uk-padding-small">
+                                    <div class="uk-cover-container uk-background-muted">
+                                        <img src="https://picsum.photos/240/356/?random=<?= $i ?>" alt="" uk-cover="">
+                                        <canvas width="240" height="356"></canvas>
+                                        <a href="" class="uk-position-cover home__giaovien__card__iconPlay uk-flex uk-flex-middle uk-flex-center"></a>
+                                    </div>
+                                    <div class="item__10">
+                                        <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name">Đào Hữu Hoàng (7t)</h5>
+                                    </div>
+                                    <div class="home__txt item__5">112 buổi học</div>
+                                </div>
+                            </li>
+                            <?php endfor; ?>
+                        </ul>
+                    </div>
+
+                    <div class="uk-hidden@s uk-light">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+            </div>
+        </div>
+        <!--/Tự hào giúp hàng ngàn trẻ em nói tiếng Anh tự tin, phát âm chuẩn-->
+
         <!--Cam kết 100% hài lòng-->
         <div class="home__boxCardMB uk-border-rounded home__item-70-40">
             <div class="item__16 uk-position-relative home__camket__boxLine uk-text-center">
