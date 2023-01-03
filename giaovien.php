@@ -291,6 +291,9 @@
                             </tr>
                             </tbody>
                         </table>
+                        <div>
+                            <a href="" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1">Xem lịch đầy đủ</a>
+                        </div>
                     </div>
                 </aside>
             </div>

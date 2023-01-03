@@ -1698,6 +1698,12 @@ body {
   }
 }
 
+.giaovien__list__card {
+  border: 1px solid transparent;
+}
+.giaovien__list__card:hover {
+  border-color: #4caf50;
+}
 .giaovien__list__coverImg canvas {
   width: 72px !important;
 }
