@@ -23,3 +23,57 @@
     }
   }
 }
+.datlich{
+  &__04{
+    &__box3{
+      &__table{
+        &__tr{
+
+        }
+        &__td{
+          &:first-child{
+            border-top: none !important;
+            .datlich__04__box3__table__tr:first-child &{
+              border-top: 1px solid #DAE7DF !important;
+              border-bottom: none !important;
+            }
+            .datlich__04__box3__table__tr:nth-child(n+2) &{
+              border-top: none !important;
+              border-bottom: none !important;
+            }
+            .datlich__04__box3__table__tr:last-child &{
+              border-bottom: 1px solid #DAE7DF !important;
+            }
+          }
+        }
+        tr{
+          td,th{
+            padding: 0;
+            text-align: center;
+          }
+          td{
+            border: 1px solid #DAE7DF;
+            &.uk-active{
+              background: #00B342;
+            }
+          }
+          th{
+
+          }
+        }
+        &__txt1{
+          color: #000;
+          //font-family: $font-primary-medium;
+          line-height: 1.4;
+          @include fluidx(base(14),scale_10(base(14)),font-size);
+        }
+        &__txt2{
+          color: #565656;
+          line-height: 1.4;
+          //font-family: $font-primary;
+          @include fluidx(base(14),scale_10(base(14)),font-size);
+        }
+      }
+    }
+  }
+}

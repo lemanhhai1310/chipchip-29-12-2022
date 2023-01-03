@@ -79,7 +79,7 @@
 
 <div class="uk-background-muted uk-section-xsmall">
     <div class="uk-container">
-        <div class="uk-grid uk-grid-small uk-grid-20-m" uk-grid>
+        <div class="uk-grid uk-grid-small" uk-grid>
             <div class="uk-width-expand">
                 <div class="home__item-70-40">
                     <?php for ($i=1;$i<=4;$i++): ?>
@@ -177,7 +177,120 @@
             <div class="uk-width-1-3@m uk-visible@m">
                 <aside class="sidebar">
                     <div class="uk-card uk-card-body uk-border-rounded uk-padding-small uk-card-default uk-height-min-medium">
-
+                        <div class="uk-cover-container uk-background-muted">
+                            <img src="https://picsum.photos/276/172/?random=<?= $i ?>" alt="" uk-cover="">
+                            <canvas width="396" height="210"></canvas>
+                            <a href="" class="uk-position-cover home__giaovien__card__iconPlay uk-flex uk-flex-middle uk-flex-center"></a>
+                        </div>
+                        <table class="uk-table datlich__04__box3__table">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T2</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">22</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T3</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">23</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T4</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">24</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T5</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">25</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T6</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">26</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">T7</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">27</span></div>
+                                </th>
+                                <th>
+                                    <div><span class="datlich__04__box3__table__txt1">CN</span></div>
+                                    <div><span class="datlich__04__box3__table__txt2">28</span></div>
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">00 - 04</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">04 - 08</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">08 - 12</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">12- 16</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="uk-active datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">16- 20</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            <tr class="datlich__04__box3__table__tr">
+                                <td class="datlich__04__box3__table__td">
+                                    <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">20- 24</span></div>
+                                </td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                                <td class="datlich__04__box3__table__td"></td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </aside>
             </div>

@@ -1735,4 +1735,63 @@ body {
   font-family: "iCiel Graphik Medium", sans-serif;
 }
 
+.datlich__04__box3__table__td:first-child {
+  border-top: none !important;
+}
+.datlich__04__box3__table__tr:first-child .datlich__04__box3__table__td:first-child {
+  border-top: 1px solid #DAE7DF !important;
+  border-bottom: none !important;
+}
+.datlich__04__box3__table__tr:nth-child(n+2) .datlich__04__box3__table__td:first-child {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.datlich__04__box3__table__tr:last-child .datlich__04__box3__table__td:first-child {
+  border-bottom: 1px solid #DAE7DF !important;
+}
+.datlich__04__box3__table tr td, .datlich__04__box3__table tr th {
+  padding: 0;
+  text-align: center;
+}
+.datlich__04__box3__table tr td {
+  border: 1px solid #DAE7DF;
+}
+.datlich__04__box3__table tr td.uk-active {
+  background: #00B342;
+}
+.datlich__04__box3__table__txt1 {
+  color: #000;
+  line-height: 1.4;
+}
+.datlich__04__box3__table__txt1 {
+  font-size: 12.4444444444px !important;
+}
+@media screen and (min-width: 640px) {
+  .datlich__04__box3__table__txt1 {
+    font-size: calc(12.4444444444px + 0 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .datlich__04__box3__table__txt1 {
+    font-size: 12.4444444444px !important;
+  }
+}
+.datlich__04__box3__table__txt2 {
+  color: #565656;
+  line-height: 1.4;
+}
+.datlich__04__box3__table__txt2 {
+  font-size: 12.4444444444px !important;
+}
+@media screen and (min-width: 640px) {
+  .datlich__04__box3__table__txt2 {
+    font-size: calc(12.4444444444px + 0 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .datlich__04__box3__table__txt2 {
+    font-size: 12.4444444444px !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
