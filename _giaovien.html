@@ -8,14 +8,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1672744178">
+    <link rel="stylesheet" href="style.css?v=1672748533">
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js"></script>
-    <script src="js/app.js?v=1672744178"></script>
+    <script src="js/app.js?v=1672748533"></script>
 </head>
 <body class="">
 <!--app-->
@@ -68,48 +68,75 @@
         <div class="uk-container">
             <div class="uk-grid uk-child-width-auto uk-grid-10" uk-grid>
                 <div>
-                    <div uk-form-custom="target: > * > span:first-child">
-                        <select aria-label="Custom controls">
-                            <option value="">Giáo viên</option>
-                            <option value="1">Option 01</option>
-                            <option value="2">Option 02</option>
-                            <option value="3">Option 03</option>
-                            <option value="4">Option 04</option>
-                        </select>
+                    <div class="uk-inline">
                         <button class="uk-button giaovien__filter__btn uk-button-default uk-border-pill" type="button" tabindex="-1">
-                            <span></span>
+                            <span>Giáo viên</span>
                             <span uk-icon="icon: chevron-down"></span>
                         </button>
+                        <div class="uk-width-large" uk-dropdown="mode: click">
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div uk-form-custom="target: > * > span:first-child">
-                        <select aria-label="Custom controls">
-                            <option value="">Mục tiêu học tập</option>
-                            <option value="1">Option 01</option>
-                            <option value="2">Option 02</option>
-                            <option value="3">Option 03</option>
-                            <option value="4">Option 04</option>
-                        </select>
+                    <div class="uk-inline">
                         <button class="uk-button giaovien__filter__btn uk-button-default uk-border-pill" type="button" tabindex="-1">
-                            <span></span>
+                            <span>Mục tiêu học tập</span>
                             <span uk-icon="icon: chevron-down"></span>
                         </button>
+                        <div class="uk-width-large" uk-dropdown="mode: click">
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div uk-form-custom="target: > * > span:first-child">
-                        <select aria-label="Custom controls">
-                            <option value="">Trình độ của con</option>
-                            <option value="1">Option 01</option>
-                            <option value="2">Option 02</option>
-                            <option value="3">Option 03</option>
-                            <option value="4">Option 04</option>
-                        </select>
+                    <div class="uk-inline">
                         <button class="uk-button giaovien__filter__btn uk-button-default uk-border-pill" type="button" tabindex="-1">
-                            <span></span>
+                            <span>Trình độ của con</span>
                             <span uk-icon="icon: chevron-down"></span>
                         </button>
+                        <div class="uk-width-large" uk-dropdown="mode: click">
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
+                                <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">A</span></label>
+                                    <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,8 +146,221 @@
 
     <div class="uk-background-muted uk-section-xsmall">
         <div class="uk-container">
-            <div class="uk-grid uk-grid-small uk-grid-20-m" uk-grid>
+            <div class="uk-grid uk-grid-small" uk-grid>
                 <div class="uk-width-expand">
+                    <div class="home__item-70-40">
+                        <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Giáo viên đã học</h3>
+                        <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
+                            <div class="uk-grid uk-grid-small" uk-grid>
+                                <div class="uk-width-auto uk-text-center">
+                                    <div class="uk-cover-container giaovien__list__coverImg">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="122" height="115"></canvas>
+                                    </div>
+                                    <div class="uk-visible@m item__10 home__txt">5687 lớp học</div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid uk-grid-5 uk-child-width-auto uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <h5 class="uk-h5 home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                                </div>
+                                                <div>
+                                                    <span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid>
+                                                <div class="home__giaovien__card__star">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                                </div>
+                                                <div>
+                                                    <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__5">
+                                        <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
+                                    </div>
+
+                                    <div class="item__10">
+                                        <div class="uk-hidden@m home__giaovien__card__txt uk-flex uk-flex-row-reverse uk-flex-middle" uk-icon="icon: user; ratio:0.8">
+                                            <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
+                                        </div>
+                                        <div class="uk-visible@m">
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            </div>
+                                            <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                                </div>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                                </div>
+                                            </div>                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-hidden@m">
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    </div>
+                                    <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                        </div>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                        </div>
+                                    </div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__item-70-40">
+                        <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Giáo viên khác</h3>
+                        <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
+                            <div class="uk-grid uk-grid-small" uk-grid>
+                                <div class="uk-width-auto uk-text-center">
+                                    <div class="uk-cover-container giaovien__list__coverImg">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="122" height="115"></canvas>
+                                    </div>
+                                    <div class="uk-visible@m item__10 home__txt">5687 lớp học</div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid uk-grid-5 uk-child-width-auto uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <h5 class="uk-h5 home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                                </div>
+                                                <div>
+                                                    <span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid>
+                                                <div class="home__giaovien__card__star">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                                </div>
+                                                <div>
+                                                    <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__5">
+                                        <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
+                                    </div>
+
+                                    <div class="item__10">
+                                        <div class="uk-hidden@m home__giaovien__card__txt uk-flex uk-flex-row-reverse uk-flex-middle" uk-icon="icon: user; ratio:0.8">
+                                            <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
+                                        </div>
+                                        <div class="uk-visible@m">
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            </div>
+                                            <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                                </div>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                                </div>
+                                            </div>                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-hidden@m">
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    </div>
+                                    <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                        </div>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                        </div>
+                                    </div>                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
+                            <div class="uk-grid uk-grid-small" uk-grid>
+                                <div class="uk-width-auto uk-text-center">
+                                    <div class="uk-cover-container giaovien__list__coverImg">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="122" height="115"></canvas>
+                                    </div>
+                                    <div class="uk-visible@m item__10 home__txt">5687 lớp học</div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid uk-grid-5 uk-child-width-auto uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <h5 class="uk-h5 home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid>
+                                                <div class="home__giaovien__card__star">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                                </div>
+                                                <div>
+                                                    <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item__5">
+                                        <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
+                                    </div>
+
+                                    <div class="item__10">
+                                        <div class="uk-hidden@m home__giaovien__card__txt uk-flex uk-flex-row-reverse uk-flex-middle" uk-icon="icon: user; ratio:0.8">
+                                            <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
+                                        </div>
+                                        <div class="uk-visible@m">
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            </div>
+                                            <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                                </div>
+                                                <div class="uk-width-1-2 uk-width-auto@s">
+                                                    <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                                </div>
+                                            </div>                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-hidden@m">
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    </div>
+                                    <div class="uk-grid uk-grid-10 item__10" uk-grid>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                                        </div>
+                                        <div class="uk-width-1-2 uk-width-auto@s">
+                                            <a href="" class="uk-button header__btn uk-width-1-1 uk-width-auto@s uk-button-default uk-border-pill">Nhắn tin</a>
+                                        </div>
+                                    </div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="home__item-70-40">
                         <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
                             <div class="uk-grid uk-grid-small" uk-grid>
@@ -156,7 +396,7 @@
                                         </div>
                                     </div>
                                     <div class="item__5">
-                                        <span class="uk-label uk-label-success">Bản ngữ</span>
+                                        <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
                                     </div>
 
                                     <div class="item__10">
@@ -164,8 +404,8 @@
                                             <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
                                         </div>
                                         <div class="uk-visible@m">
-                                            <div class="item__10">
-                                                <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                             </div>
                                             <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                                 <div class="uk-width-1-2 uk-width-auto@s">
@@ -178,8 +418,8 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-hidden@m">
-                                    <div class="item__10">
-                                        <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                     </div>
                                     <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                         <div class="uk-width-1-2 uk-width-auto@s">
@@ -222,7 +462,7 @@
                                         </div>
                                     </div>
                                     <div class="item__5">
-                                        <span class="uk-label uk-label-success">Bản ngữ</span>
+                                        <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
                                     </div>
 
                                     <div class="item__10">
@@ -230,8 +470,8 @@
                                             <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
                                         </div>
                                         <div class="uk-visible@m">
-                                            <div class="item__10">
-                                                <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                             </div>
                                             <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                                 <div class="uk-width-1-2 uk-width-auto@s">
@@ -244,8 +484,8 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-hidden@m">
-                                    <div class="item__10">
-                                        <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                     </div>
                                     <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                         <div class="uk-width-1-2 uk-width-auto@s">
@@ -296,8 +536,8 @@
                                             <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
                                         </div>
                                         <div class="uk-visible@m">
-                                            <div class="item__10">
-                                                <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                             </div>
                                             <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                                 <div class="uk-width-1-2 uk-width-auto@s">
@@ -310,8 +550,8 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-hidden@m">
-                                    <div class="item__10">
-                                        <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                     </div>
                                     <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                         <div class="uk-width-1-2 uk-width-auto@s">
@@ -359,8 +599,8 @@
                                             <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
                                         </div>
                                         <div class="uk-visible@m">
-                                            <div class="item__10">
-                                                <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                            <div class="item__10 giaovien__list__txt">
+                                                <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                             </div>
                                             <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                                 <div class="uk-width-1-2 uk-width-auto@s">
@@ -373,8 +613,8 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-1-1 uk-hidden@m">
-                                    <div class="item__10">
-                                        <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+                                    <div class="item__10 giaovien__list__txt">
+                                        <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
                                     </div>
                                     <div class="uk-grid uk-grid-10 item__10" uk-grid>
                                         <div class="uk-width-1-2 uk-width-auto@s">
@@ -424,7 +664,123 @@
                 <div class="uk-width-1-3@m uk-visible@m">
                     <aside class="sidebar">
                         <div class="uk-card uk-card-body uk-border-rounded uk-padding-small uk-card-default uk-height-min-medium">
-
+                            <div class="uk-cover-container uk-background-muted">
+                                <img src="https://picsum.photos/276/172/?random=5" alt="" uk-cover="">
+                                <canvas width="396" height="210"></canvas>
+                                <a href="" class="uk-position-cover home__giaovien__card__iconPlay uk-flex uk-flex-middle uk-flex-center"></a>
+                            </div>
+                            <table class="uk-table datlich__04__box3__table">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T2</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">22</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T3</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">23</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T4</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">24</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T5</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">25</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T6</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">26</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">T7</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">27</span></div>
+                                    </th>
+                                    <th>
+                                        <div><span class="datlich__04__box3__table__txt1">CN</span></div>
+                                        <div><span class="datlich__04__box3__table__txt2">28</span></div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">00 - 04</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">04 - 08</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">08 - 12</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">12- 16</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="uk-active datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">16- 20</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                <tr class="datlich__04__box3__table__tr">
+                                    <td class="datlich__04__box3__table__td">
+                                        <div><span class="datlich__04__box3__table__txt2 uk-text-truncate">20- 24</span></div>
+                                    </td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                    <td class="datlich__04__box3__table__td"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                <a href="" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1">Xem lịch đầy đủ</a>
+                            </div>
                         </div>
                     </aside>
                 </div>

@@ -110,7 +110,68 @@
             <div class="uk-width-expand">
                 <div class="home__item-70-40">
                     <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Giáo viên đã học</h3>
-                    <?php for ($i=1;$i<=4;$i++): ?>
+                    <?php for ($i=1;$i<=1;$i++): ?>
+                        <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
+                            <div class="uk-grid uk-grid-small" uk-grid>
+                                <div class="uk-width-auto uk-text-center">
+                                    <div class="uk-cover-container giaovien__list__coverImg">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="122" height="115"></canvas>
+                                    </div>
+                                    <div class="uk-visible@m item__10 home__txt">5687 lớp học</div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid uk-grid-5 uk-child-width-auto uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <h5 class="uk-h5 home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                                </div>
+                                                <?php if ($i%2!=0): ?>
+                                                    <div>
+                                                        <span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span>
+                                                    </div>
+                                                <?php endif; ?>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid>
+                                                <div class="home__giaovien__card__star">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                                </div>
+                                                <div>
+                                                    <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php if ($i<=2): ?>
+                                        <div class="item__5">
+                                            <span class="uk-label uk-label-success giaovien__list__label">Bản ngữ</span>
+                                        </div>
+                                    <?php endif; ?>
+
+                                    <div class="item__10">
+                                        <div class="uk-hidden@m home__giaovien__card__txt uk-flex uk-flex-row-reverse uk-flex-middle" uk-icon="icon: user; ratio:0.8">
+                                            <span class="uk-flex-auto uk-text-middle">80 học sinh * 5603 bài học</span>
+                                        </div>
+                                        <div class="uk-visible@m">
+                                            <?php require "template-parts/block01.php"; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-hidden@m">
+                                    <?php require "template-parts/block01.php"; ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endfor; ?>
+                </div>
+
+                <div class="home__item-70-40">
+                    <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Giáo viên khác</h3>
+                    <?php for ($i=1;$i<=2;$i++): ?>
                         <div class="uk-card giaovien__list__card item__15 uk-card-default uk-card-body uk-padding-small uk-border-rounded">
                             <div class="uk-grid uk-grid-small" uk-grid>
                                 <div class="uk-width-auto uk-text-center">
