@@ -14,6 +14,8 @@ const app = {
         const bottomSticky = x('.bottomSticky');
         const sidebar = x('.sidebar');
         const giaovien__filter = x('.giaovien__filter');
+        const bottomDetail = x('.bottomDetail');
+        const chitietgiaovien__videoMB = x('.chitietgiaovien__videoMB');
 
         function sideBarSticky() {
             if (sidebar){
@@ -25,6 +27,16 @@ const app = {
                 });
                 console.log('offsetSidebar',offsetSidebar);
             }
+            // if (chitietgiaovien__videoMB){
+            //     var offset = header.offsetHeight + 'px';
+            //     var stickyVideoMB = UIkit.sticky(chitietgiaovien__videoMB, {
+            //         'offset': offset,
+            //         'start': 0.01 + 'px',
+            //         'end': true,
+            //         'media': 0,
+            //     });
+            //     console.log('chitietgiaovien__videoMB',offset);
+            // }
         }
         sideBarSticky();
 
@@ -45,6 +57,11 @@ const app = {
                 var offsetBottomSticky = bottomSticky.offsetHeight + 'px';
                 console.log('offsetBottomSticky',offsetBottomSticky);
                 app.style.paddingBottom = offsetBottomSticky;
+            }
+            if (bottomDetail){
+                var offsetBottomDetail = bottomDetail.offsetHeight + 'px';
+                console.log('offsetBottomDetail',offsetBottomDetail);
+                app.style.paddingBottom = offsetBottomDetail;
             }
         }
         paddingTopApp();

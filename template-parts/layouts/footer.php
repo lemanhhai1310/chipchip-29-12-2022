@@ -59,6 +59,13 @@
         </div>
     </div>
 </footer>
+<?php if (isset($notBottom)): ?>
+<div class="bottomDetail uk-box-shadow-medium uk-position-bottom uk-hidden@m uk-position-fixed uk-section-xsmall uk-background-default">
+    <div class="uk-container">
+
+    </div>
+</div>
+<?php else: ?>
 <div class="bottomSticky uk-position-bottom uk-position-fixed uk-background-default uk-box-shadow-small">
     <div class="uk-container">
         <div class="uk-grid uk-flex-bottom" uk-grid>
@@ -82,6 +89,7 @@
         </div>
     </div>
 </div>
+<?php endif; ?>
 </div>
 <!--/app-->
 </body>
