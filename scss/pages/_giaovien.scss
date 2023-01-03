@@ -1,0 +1,19 @@
+.giaovien{
+  &__list{
+    &__card{
+
+    }
+    &__coverImg{
+      canvas{
+        @include fluidx(122px,72px,width);
+        @include fluidx(115px,74px,height);
+      }
+    }
+  }
+  &__filter{
+    &__btn{
+      text-transform: inherit;
+      font-family: $font-iCiel-Graphik-Medium;
+    }
+  }
+}

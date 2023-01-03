@@ -1237,7 +1237,6 @@ body {
 .header__btn {
   text-transform: inherit;
   font-family: "iCiel Graphik Medium", sans-serif;
-  border-radius: 5px;
 }
 .header__btn.uk-button-default {
   border-color: #4caf50;
@@ -1697,6 +1696,37 @@ body {
   .home__item-70-40:nth-child(n+2) {
     margin-top: 70px;
   }
+}
+
+.giaovien__list__coverImg canvas {
+  width: 72px !important;
+}
+@media screen and (min-width: 640px) {
+  .giaovien__list__coverImg canvas {
+    width: calc(72px + 50 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .giaovien__list__coverImg canvas {
+    width: 122px !important;
+  }
+}
+.giaovien__list__coverImg canvas {
+  height: 74px !important;
+}
+@media screen and (min-width: 640px) {
+  .giaovien__list__coverImg canvas {
+    height: calc(74px + 41 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .giaovien__list__coverImg canvas {
+    height: 115px !important;
+  }
+}
+.giaovien__filter__btn {
+  text-transform: inherit;
+  font-family: "iCiel Graphik Medium", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

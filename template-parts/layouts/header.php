@@ -35,10 +35,10 @@
                 </div>
                 <div class="uk-navbar-right">
                     <div class="uk-navbar-item uk-visible@m">
-                        <a href="" class="uk-button header__btn uk-button-default">Đăng nhập</a>
+                        <a href="" class="uk-button header__btn uk-button-default uk-border-rounded">Đăng nhập</a>
                     </div>
                     <div class="uk-navbar-item uk-visible@m">
-                        <a href="" class="uk-button header__btn uk-button-primary">Đăng ký</a>
+                        <a href="" class="uk-button header__btn uk-button-primary uk-border-rounded">Đăng ký</a>
                     </div>
                 </div>
             </nav>

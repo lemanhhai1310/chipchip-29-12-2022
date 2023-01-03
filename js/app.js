@@ -13,6 +13,7 @@ const app = {
         const video_intro = x('#video-intro');
         const bottomSticky = x('.bottomSticky');
         const sidebar = x('.sidebar');
+        const giaovien__filter = x('.giaovien__filter');
 
         function sideBarSticky() {
             if (sidebar){

@@ -74,7 +74,7 @@
                             <div class="bottomSticky__txt">Đăng ký học thử <br class="uk-hidden@m"> <span>MIỄN PHÍ</span> ngay!</div>
                         </div>
                         <div>
-                            <a href="" class="uk-button header__btn header__btn--bottom uk-button-primary">Đăng ký</a>
+                            <a href="" class="uk-button header__btn header__btn--bottom uk-button-primary uk-border-rounded">Đăng ký</a>
                         </div>
                     </div>
                 </div>
