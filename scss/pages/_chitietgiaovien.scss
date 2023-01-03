@@ -15,11 +15,33 @@
       z-index: 1000;
     }
   }
+  &__about{
+    &__title{
+      font-family: $font-iCiel-Graphik-Bold;
+      color: #000;
+    }
+    &__link{
+      color: #{$primary-color};
+    }
+    &__article{
+
+    }
+  }
   &__info{
+    &__number{
+      font-family: $font-iCiel-Graphik-Bold;
+      color: #000;
+      @include fluidx(17px,15px,font-size);
+    }
+    &__txt3{
+      @include fluidx(15px,13px,font-size);
+      color: #000000;
+    }
     &__txt1{
       color: #000000;
       display: flex;
       align-items: flex-start;
+      @include fluidx(15px,13px,font-size);
       &:before{
         margin-right: 6px;
         content: "";
@@ -37,6 +59,7 @@
       color: #712306;
       display: flex;
       align-items: flex-start;
+      @include fluidx(15px,13px,font-size);
       &:before{
         margin-right: 6px;
         content: "";

@@ -1845,10 +1845,63 @@ body {
   position: fixed !important;
   z-index: 1000;
 }
+.chitietgiaovien__about__title {
+  font-family: "iCiel Graphik Bold", sans-serif;
+  color: #000;
+}
+.chitietgiaovien__about__link {
+  color: #4caf50;
+}
+.chitietgiaovien__info__number {
+  font-family: "iCiel Graphik Bold", sans-serif;
+  color: #000;
+}
+.chitietgiaovien__info__number {
+  font-size: 15px !important;
+}
+@media screen and (min-width: 640px) {
+  .chitietgiaovien__info__number {
+    font-size: calc(15px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chitietgiaovien__info__number {
+    font-size: 17px !important;
+  }
+}
+.chitietgiaovien__info__txt3 {
+  color: #000000;
+}
+.chitietgiaovien__info__txt3 {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .chitietgiaovien__info__txt3 {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chitietgiaovien__info__txt3 {
+    font-size: 15px !important;
+  }
+}
 .chitietgiaovien__info__txt1 {
   color: #000000;
   display: flex;
   align-items: flex-start;
+}
+.chitietgiaovien__info__txt1 {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .chitietgiaovien__info__txt1 {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chitietgiaovien__info__txt1 {
+    font-size: 15px !important;
+  }
 }
 .chitietgiaovien__info__txt1:before {
   margin-right: 6px;
@@ -1865,6 +1918,19 @@ body {
   color: #712306;
   display: flex;
   align-items: flex-start;
+}
+.chitietgiaovien__info__txt2 {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .chitietgiaovien__info__txt2 {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chitietgiaovien__info__txt2 {
+    font-size: 15px !important;
+  }
 }
 .chitietgiaovien__info__txt2:before {
   margin-right: 6px;

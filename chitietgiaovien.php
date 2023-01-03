@@ -47,15 +47,54 @@
                 </div>
                 <!--/Thông tin giáo viên-->
 
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
+                <!--Thông tin giáo viên-->
+                <div class="uk-card item__15 uk-card-body uk-text-center uk-card-default uk-padding-small uk-border-rounded">
+                    <div class="uk-grid uk-grid-10 uk-child-width-expand" uk-grid>
+                        <div>
+                            <div class="uk-grid uk-child-width-auto uk-flex-center uk-grid-5 uk-flex-middle" uk-grid>
+                                <div class="home__giaovien__card__star">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                </div>
+                            </div>
+                            <div class="chitietgiaovien__info__txt3">đánh giá</div>
+                        </div>
+                        <div>
+                            <div class="chitietgiaovien__info__number">1229</div>
+                            <div class="chitietgiaovien__info__txt3">lớp đã dạy</div>
+                        </div>
+                        <div>
+                            <div class="chitietgiaovien__info__number">89</div>
+                            <div class="chitietgiaovien__info__txt3">học sinh</div>
+                        </div>
+                        <div>
+                            <div class="chitietgiaovien__info__number">98%</div>
+                            <div class="chitietgiaovien__info__txt3">mức chuyên cần</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
+                <!--/Thông tin giáo viên-->
+
+                <!--Giới thiệu-->
+                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                    <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Giới thiệu</h5>
+                    <article class="uk-article chitietgiaovien__about__article item__10">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</p>
+                    </article>
+                    <div class="item__10">
+                        <a href="" class="chitietgiaovien__about__link">Hiển thị thêm</a>
+                    </div>
                 </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
+                <!--/Giới thiệu-->
+
+                <!--Lịch học-->
+                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-large">
+                    <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Lịch học</h5>
+                    <div class="home__txt item__10">Chọn giờ học phù hợp với con. Mỗi buổi học kéo dài trong 25 phút.</div>
                 </div>
+                <!--/Lịch học-->
+
+
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
                     1
                 </div>
