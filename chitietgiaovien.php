@@ -16,7 +16,7 @@
             </div>
             <div class="uk-width-expand">
                 <!--Thông tin giáo viên-->
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
+                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded">
                     <div class="uk-grid uk-grid-small" uk-grid>
                         <div class="uk-width-auto uk-text-center">
                             <div class="uk-cover-container giaovien__list__coverImg">
@@ -39,8 +39,8 @@
                             </div>
                             <div class="home__txt item__8">Chứng chỉ quốc tế TEFL với 5 năm kinh nghiệm giảng dạy</div>
                             <div class="item__8">
-                                <div>Giảng dạy tại Chip Chip từ 7/2020</div>
-                                <div>32 lớp được đặt trong 48 giờ qua</div>
+                                <div class="chitietgiaovien__info__txt1">Giảng dạy tại Chip Chip từ 7/2020</div>
+                                <div class="chitietgiaovien__info__txt2">32 lớp được đặt trong 48 giờ qua</div>
                             </div>
                         </div>
                     </div>
