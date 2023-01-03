@@ -1,5 +1,5 @@
-<div class="item__10">
-    <b>Chứng chỉ TEFL với 3 năm kinh nghiệm</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+<div class="item__10 giaovien__list__txt">
+    <span>Chứng chỉ TEFL với 3 năm kinh nghiệm</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
 </div>
 <div class="uk-grid uk-grid-10 item__10" uk-grid>
     <div class="uk-width-1-2 uk-width-auto@s">

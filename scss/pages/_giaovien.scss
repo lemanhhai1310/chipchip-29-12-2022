@@ -9,6 +9,12 @@
         @include fluidx(115px,74px,height);
       }
     }
+    &__txt{
+      color: #424242;
+      span{
+        font-family: $font-iCiel-Graphik-Bold;
+      }
+    }
   }
   &__filter{
     &__btn{

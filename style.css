@@ -1724,6 +1724,12 @@ body {
     height: 115px !important;
   }
 }
+.giaovien__list__txt {
+  color: #424242;
+}
+.giaovien__list__txt span {
+  font-family: "iCiel Graphik Bold", sans-serif;
+}
 .giaovien__filter__btn {
   text-transform: inherit;
   font-family: "iCiel Graphik Medium", sans-serif;
