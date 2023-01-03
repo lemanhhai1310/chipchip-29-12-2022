@@ -1,10 +1,19 @@
 .giaovien{
   &__list{
+    &__title{
+      font-family: $font-iCiel-Graphik-Medium;
+    }
     &__card{
       border: 1px solid transparent;
       &:hover{
         border-color: #{$primary-color};
       }
+    }
+    &__label{
+      text-transform: inherit;
+      border-radius: 500px;
+      color: #08880d;
+      background: rgba(#4caf50,.3);
     }
     &__coverImg{
       canvas{
@@ -20,9 +29,33 @@
     }
   }
   &__filter{
+    &__txt{
+
+    }
     &__btn{
       text-transform: inherit;
       font-family: $font-iCiel-Graphik-Medium;
+    }
+    &__radio{
+      display: none;
+    }
+    &__checkbox{
+      display: none;
+    }
+    &__box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      border-radius: 500px;
+      min-height: 40px;
+      background: #F3F5FA;
+      cursor: pointer;
+      .giaovien__filter__radio:checked ~ &,
+      .giaovien__filter__checkbox:checked ~ &{
+        background: #{$primary-color};
+        color: #ffffff;
+      }
     }
   }
 }

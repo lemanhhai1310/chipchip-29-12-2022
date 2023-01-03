@@ -1698,11 +1698,20 @@ body {
   }
 }
 
+.giaovien__list__title {
+  font-family: "iCiel Graphik Medium", sans-serif;
+}
 .giaovien__list__card {
   border: 1px solid transparent;
 }
 .giaovien__list__card:hover {
   border-color: #4caf50;
+}
+.giaovien__list__label {
+  text-transform: inherit;
+  border-radius: 500px;
+  color: #08880d;
+  background: rgba(76, 175, 80, 0.3);
 }
 .giaovien__list__coverImg canvas {
   width: 72px !important;
@@ -1739,6 +1748,26 @@ body {
 .giaovien__filter__btn {
   text-transform: inherit;
   font-family: "iCiel Graphik Medium", sans-serif;
+}
+.giaovien__filter__radio {
+  display: none;
+}
+.giaovien__filter__checkbox {
+  display: none;
+}
+.giaovien__filter__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 500px;
+  min-height: 40px;
+  background: #F3F5FA;
+  cursor: pointer;
+}
+.giaovien__filter__radio:checked ~ .giaovien__filter__box, .giaovien__filter__checkbox:checked ~ .giaovien__filter__box {
+  background: #4caf50;
+  color: #ffffff;
 }
 
 .datlich__04__box3__table__td:first-child {
