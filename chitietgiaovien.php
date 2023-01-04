@@ -95,30 +95,38 @@
                 <!--/Lịch học-->
 
 
+                <!--Đánh giá của phụ huynhc-->
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
+                    <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Đánh giá của phụ huynh</h5>
+                    <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle item__10" uk-grid>
+                        <div class="home__giaovien__card__star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <span class="home__giaovien__card__star__count">5.0</span>
+                        </div>
+                        <div>
+                            <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                        </div>
+                    </div>
+                    <div class="item__10">
+                        <?php for ($i=5;$i>=1;$i--): ?>
+                        <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                            <div class="uk-width-small">
+                                <div class="chitietgiaovien__danhgia__txt"><?= $i ?> sao</div>
+                            </div>
+                            <div>
+                                <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                    <div class="uk-position-left" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                            </div>
+                        </div>
+                        <?php endfor; ?>
+                    </div>
                 </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
-                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                    1
-                </div>
+                <!--/Đánh giá của phụ huynh-->
+
             </div>
             <div class="uk-width-1-3@m uk-visible@m">
                 <aside class="sidebar">

@@ -13,9 +13,36 @@ const app = {
         const video_intro = x('#video-intro');
         const bottomSticky = x('.bottomSticky');
         const sidebar = x('.sidebar');
+        const sidebar1 = x('.sidebar1');
         const giaovien__filter = x('.giaovien__filter');
         const bottomDetail = x('.bottomDetail');
         const chitietgiaovien__videoMB = x('.chitietgiaovien__videoMB');
+        const giaovien__list__card = xx('.giaovien__list__card');
+
+        const removeAttributes = (element) => {
+            for (let i = 0; i < element.attributes.length; i++) {
+                element.removeAttribute(element.attributes[i].name);
+            }
+        };
+
+        giaovien__list__card.forEach((item,index)=>{
+            item.addEventListener('mouseover',()=>{
+                console.log(1);
+                if (sidebar1){
+                    var offsetSidebar = header.offsetHeight+15 + 'px';
+                    var stickySidebar = UIkit.sticky(sidebar1, {
+                        'offset': offsetSidebar,
+                        'start': 0.01 + 'px',
+                        'end': true,
+                    });
+                    console.log('offsetSidebar',offsetSidebar);
+                }
+            });
+
+            item.addEventListener('mouseout',()=>{
+                console.log('turn off sticky');
+            });
+        });
 
         function sideBarSticky() {
             if (sidebar){
@@ -27,16 +54,6 @@ const app = {
                 });
                 console.log('offsetSidebar',offsetSidebar);
             }
-            // if (chitietgiaovien__videoMB){
-            //     var offset = header.offsetHeight + 'px';
-            //     var stickyVideoMB = UIkit.sticky(chitietgiaovien__videoMB, {
-            //         'offset': offset,
-            //         'start': 0.01 + 'px',
-            //         'end': true,
-            //         'media': 0,
-            //     });
-            //     console.log('chitietgiaovien__videoMB',offset);
-            // }
         }
         sideBarSticky();
 

@@ -325,7 +325,7 @@
                 <!--/Câu hỏi thường gặp về giáo viên-->
             </div>
             <div class="uk-width-1-3@m uk-visible@m">
-                <aside class="sidebar">
+                <aside class="sidebar1">
                     <div class="uk-card uk-card-body uk-border-rounded uk-padding-small uk-card-default uk-height-min-medium">
                         <div class="uk-cover-container uk-background-muted">
                             <img src="https://picsum.photos/276/172/?random=<?= $i ?>" alt="" uk-cover="">

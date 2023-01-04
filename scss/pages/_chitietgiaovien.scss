@@ -27,6 +27,19 @@
 
     }
   }
+  &__danhgia{
+    &__txt{
+      @include fluidx(15px,13px,font-size);
+      color: #000000;
+    }
+    &__progess{
+      height: 10px;
+      border: 1px solid #000;
+      >*{
+        background-color: #ffeb3b;
+      }
+    }
+  }
   &__info{
     &__number{
       font-family: $font-iCiel-Graphik-Bold;

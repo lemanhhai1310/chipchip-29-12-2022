@@ -2,6 +2,10 @@ body {
   font-family: "iCiel Graphik Regular", sans-serif;
 }
 
+.app {
+  padding-top: 80px;
+}
+
 @font-face {
   font-family: "iCiel Graphik Regular";
   font-display: auto;
@@ -1239,18 +1243,18 @@ body {
   font-family: "iCiel Graphik Medium", sans-serif;
 }
 .header__btn.uk-button-default {
-  border-color: #4caf50;
-  color: #4caf50;
+  border-color: #00b342;
+  color: #00b342;
 }
 .header__btn.uk-button-default:hover {
-  background: #4caf50;
+  background: #00b342;
   color: #ffffff;
 }
 .header__btn.uk-button-primary {
-  background: #4caf50;
+  background: #00b342;
 }
 .header__btn.uk-button-primary:hover {
-  background: rgba(76, 175, 80, 0.8);
+  background: rgba(0, 179, 66, 0.8);
 }
 @media (max-width: 639.98px) {
   .header__btn--bottom {
@@ -1360,7 +1364,7 @@ body {
   color: #565656;
 }
 .home__btnLarge {
-  background: #4caf50;
+  background: #00b342;
   text-transform: inherit;
   font-family: "iCiel Graphik Medium", sans-serif;
 }
@@ -1398,7 +1402,7 @@ body {
   margin-left: 6px;
 }
 .home__btnLarge:hover {
-  background: rgba(76, 175, 80, 0.8);
+  background: rgba(0, 179, 66, 0.8);
 }
 .home__number {
   font-family: "HiraKakuStd-W8", sans-serif;
@@ -1705,7 +1709,7 @@ body {
   border: 1px solid transparent;
 }
 .giaovien__list__card:hover {
-  border-color: #4caf50;
+  border-color: #00b342;
 }
 .giaovien__list__label {
   text-transform: inherit;
@@ -1766,7 +1770,7 @@ body {
   cursor: pointer;
 }
 .giaovien__filter__radio:checked ~ .giaovien__filter__box, .giaovien__filter__checkbox:checked ~ .giaovien__filter__box {
-  background: #4caf50;
+  background: #00b342;
   color: #ffffff;
 }
 
@@ -1850,7 +1854,30 @@ body {
   color: #000;
 }
 .chitietgiaovien__about__link {
-  color: #4caf50;
+  color: #00b342;
+}
+.chitietgiaovien__danhgia__txt {
+  color: #000000;
+}
+.chitietgiaovien__danhgia__txt {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .chitietgiaovien__danhgia__txt {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chitietgiaovien__danhgia__txt {
+    font-size: 15px !important;
+  }
+}
+.chitietgiaovien__danhgia__progess {
+  height: 10px;
+  border: 1px solid #000;
+}
+.chitietgiaovien__danhgia__progess > * {
+  background-color: #ffeb3b;
 }
 .chitietgiaovien__info__number {
   font-family: "iCiel Graphik Bold", sans-serif;
@@ -1961,10 +1988,10 @@ body {
   background-size: contain;
 }
 .chitietgiaovien__sidebar__btn--datlop {
-  background: #4caf50;
+  background: #00b342;
 }
 .chitietgiaovien__sidebar__btn--datlop:hover {
-  background: rgba(76, 175, 80, 0.8);
+  background: rgba(0, 179, 66, 0.8);
 }
 .chitietgiaovien__sidebar__btn--datlop:before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M18.726 3.773l-1.375 11.16h6.088l-10.165 13.293 1.376-11.16h-6.088l10.165-13.293zM20.265 0.006l-13.861 18.126h7.040l-1.709 13.861 13.861-18.126h-7.040l1.709-13.861z' fill='%23fff'/%3E%3C/svg%3E");
