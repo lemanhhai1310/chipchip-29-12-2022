@@ -98,7 +98,7 @@
                         </div>
                         <div class="uk-margin">
                             <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Buổi</h5>
-                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid" uk-grid>
                                 <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">Sáng</span></label>
                                 <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">Chiều</span></label>
                                 <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">Tối</span></label>
@@ -106,15 +106,15 @@
                         </div>
                         <div class="uk-margin-top">
                             <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
-                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid" uk-grid>
                                 <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">18:00</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">18:30</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">19:00</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">19:30</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">20:00</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">20:30</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">21:00</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">21:30</span></label>
                             </div>
                         </div>
                     </div>
