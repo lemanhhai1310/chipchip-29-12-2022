@@ -1,5 +1,7 @@
 <?php $data["title"] = "Giáo viên"; ?>
 <?php $bodyClass = '' ?>
+<?php $is_from_login = true; ?>
+<?php $timgiaovien = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <!--Nền tảng tìm giáo viên nước ngoài kèm riêng cho trẻ em lớn nhất-->
 <div class="uk-section uk-background-default uk-padding-remove-bottom">
@@ -33,7 +35,7 @@
                         <span>Giáo viên</span>
                         <span uk-icon="icon: chevron-down"></span>
                     </button>
-                    <div class="uk-width-large" uk-dropdown="mode: click">
+                    <div class="uk-width-xlarge" uk-dropdown="mode: click">
                         <div class="uk-margin">
                             <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
                             <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
@@ -57,7 +59,7 @@
                         <span>Mục tiêu học tập</span>
                         <span uk-icon="icon: chevron-down"></span>
                     </button>
-                    <div class="uk-width-large" uk-dropdown="mode: click">
+                    <div class="uk-width-xlarge" uk-dropdown="mode: click">
                         <div class="uk-margin">
                             <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
                             <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
@@ -81,18 +83,37 @@
                         <span>Trình độ của con</span>
                         <span uk-icon="icon: chevron-down"></span>
                     </button>
-                    <div class="uk-width-large" uk-dropdown="mode: click">
+                    <div class="uk-width-xlarge" uk-dropdown="mode: click">
                         <div class="uk-margin">
-                            <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
-                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
-                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox" checked> <span class="giaovien__filter__box">A</span></label>
-                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">B</span></label>
+                            <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Chọn ngày</h5>
+                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid" uk-grid>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">Hôm nay</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">Ngày mai</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">28/12</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">29/12</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">30/12</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">31/12</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">1/1</span></label>
                             </div>
                         </div>
                         <div class="uk-margin">
+                            <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Buổi</h5>
+                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">Sáng</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">Chiều</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">Tối</span></label>
+                            </div>
+                        </div>
+                        <div class="uk-margin-top">
                             <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
                             <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">A</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">18:00</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
                                 <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
                             </div>
                         </div>
@@ -325,7 +346,7 @@
                 <!--/Câu hỏi thường gặp về giáo viên-->
             </div>
             <div class="uk-width-1-3@m uk-visible@m">
-                <aside class="sidebar1">
+                <aside class="sidebar">
                     <div class="uk-card uk-card-body uk-border-rounded uk-padding-small uk-card-default uk-height-min-medium">
                         <div class="uk-cover-container uk-background-muted">
                             <img src="https://picsum.photos/276/172/?random=<?= $i ?>" alt="" uk-cover="">

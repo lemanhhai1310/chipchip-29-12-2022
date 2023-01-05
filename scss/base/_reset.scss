@@ -2,5 +2,8 @@ body{
   font-family: $font-iCiel-Graphik-Regular;
 }
 .app{
-  padding-top: 80px;
+  padding-top: 60px;
+  @include media-breakpoint-up('m'){
+    padding-top: 80px;
+  }
 }

@@ -25,21 +25,50 @@
     <header class="header uk-position-top uk-position-fixed uk-position-z-index" uk-sticky>
         <div class="uk-container">
             <nav class="uk-navbar-container uk-navbar  uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left"><a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a></div>
+                <div class="uk-navbar-left">
+                    <a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a>
+                    <?php if (isset($is_from_login) && $is_from_login): ?>
+                        <ul class="uk-navbar-nav header__navdivider uk-visible@m">
+                            <li class="<?= (isset($lophoc))? 'uk-active':'' ?>"><a href="lophoc.php">Lớp học</a></li>
+                            <li class="<?= (isset($timgiaovien))? 'uk-active':'' ?>"><a href="giaovien.php">Tìm giáo viên</a></li>
+                        </ul>
+                    <?php else: ?>
+
+                    <?php endif; ?>
+                </div>
                 <div class="uk-navbar-center uk-visible@m">
-                    <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="giaovien.php">Tìm giáo viên</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Liên hệ</a></li>
-                    </ul>
+                    <?php if (isset($is_from_login) && $is_from_login): ?>
+
+                    <?php else: ?>
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="giaovien.php">Tìm giáo viên</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    <?php endif; ?>
                 </div>
                 <div class="uk-navbar-right">
-                    <div class="uk-navbar-item uk-visible@m">
-                        <a href="" class="uk-button header__btn uk-button-default uk-border-rounded">Đăng nhập</a>
-                    </div>
-                    <div class="uk-navbar-item uk-visible@m">
-                        <a href="" class="uk-button header__btn uk-button-primary uk-border-rounded">Đăng ký</a>
-                    </div>
+                    <?php if (isset($is_from_login) && $is_from_login): ?>
+                        <div class="uk-navbar-item">
+                            <a href="" class="uk-button header__btn uk-button-primary uk-border-pill">Mua thêm buổi học</a>
+                        </div>
+                        <div class="uk-navbar-item uk-visible@m">
+                            <a href="" class="header__icon header__icon--comment"></a>
+                        </div>
+                        <div class="uk-navbar-item uk-visible@m">
+                            <a href="" class="header__icon header__icon--qa"></a>
+                        </div>
+                        <div class="uk-navbar-item uk-visible@m">
+                            <a href="" class="header__icon header__icon--user"></a>
+                        </div>
+                    <?php else: ?>
+                        <div class="uk-navbar-item uk-visible@m">
+                            <a href="" class="uk-button header__btn uk-button-default uk-border-rounded">Đăng nhập</a>
+                        </div>
+                        <div class="uk-navbar-item uk-visible@m">
+                            <a href="" class="uk-button header__btn uk-button-primary uk-border-rounded">Đăng ký</a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </nav>
         </div>
