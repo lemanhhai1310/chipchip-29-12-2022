@@ -8,14 +8,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1672991928">
+    <link rel="stylesheet" href="style.css?v=1673012785">
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js"></script>
-    <script src="js/app.js?v=1672991928"></script>
+    <script src="js/app.js?v=1673012785"></script>
 </head>
 <body class="">
 <!--app-->
@@ -52,52 +52,177 @@
     </header>
     <div class="uk-background-muted uk-section-xsmall" uk-height-viewport="expand: true">
         <div class="uk-container">
-            <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Lớp học của con</h3>
-            <div class="uk-grid uk-margin uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
-                <div>
-                    <div class="uk-card lophoc__card uk-card-body uk-card-default uk-padding-small uk-border-rounded">
-                        <div class="uk-flex-middle uk-grid-5" uk-grid>
-                            <div class="uk-width-expand">
-                                <div class="lophoc__card__txt1">Đã hoàn thành</div>
+            <div class="uk-hidden@m">
+                <ul class="uk-subnav lophoc__tab uk-subnav-pill" uk-switcher>
+                    <li><a href="#">Lớp học</a></li>
+                    <li><a href="#">Tìm giáo viên</a></li>
+                </ul>
+
+                <ul class="uk-switcher uk-margin">
+                    <li>
+                        <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Lớp học của con</h3>
+                        <div class="uk-grid uk-margin uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                            <div>
+                                <div class="uk-card lophoc__card uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                                    <div class="lophoc__card__box uk-border-rounded">
+                                        <div class="uk-flex-middle uk-grid-5" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <div class="lophoc__card__txt1">Đã đặt lịch</div>
+                                            </div>
+                                            <div class="uk-width-auto">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-grid uk-grid-8 uk-flex-middle item__10" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/noimage.jpg" alt="" uk-cover="">
+                                                <canvas width="50" height="50"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                            <div><span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="item__5 lophoc__card__txtDate">20:00 Thứ 5 23/12/2022</div>
+                                    <div class="uk-margin-small-top"><a href="" class="lophoc__card__btn lophoc__card__btn--vaolop uk-button uk-button-primary uk-width uk-border-pill">Vào lớp học</a></div>
+                                    <div class="item__8"><a href="" class="lophoc__card__btn lophoc__card__btn--hocthu uk-button uk-button-default uk-width uk-border-pill">Hướng dẫn học thử</a></div>
+                                </div>
                             </div>
-                            <div class="uk-width-auto">
-                                <div class="lophoc__card__rate">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                            <div>
+                                <div class="uk-card lophoc__card uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                                    <div class="lophoc__card__box uk-border-rounded">
+                                        <div class="uk-flex-middle uk-grid-5" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <div class="lophoc__card__txt1">Đã hoàn thành</div>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="lophoc__card__rate">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-grid uk-grid-8 uk-flex-middle item__10" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/noimage.jpg" alt="" uk-cover="">
+                                                <canvas width="50" height="50"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                            <div><span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="item__5 lophoc__card__txtDate">20:00 Thứ 5 23/12/2022</div>
+                                    <div class="lophoc__card__desc">What do you like doing?</div>
+                                    <div class="uk-margin-small-top"><a href="" class="lophoc__card__btn uk-button uk-button-primary uk-width uk-border-pill">Nhận xét của giáo viên</a></div>
+                                    <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Video buổi học</a></div>
+                                    <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Luyện tập</a></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-card lophoc__card uk-position-relative uk-flex uk-flex-middle uk-flex-center uk-text-center uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                                    <div>
+                                        <div class="lophoc__iconPlus"></div>
+                                        <div class="lophoc__card__txtAdd">Thêm buổi học</div>
+                                    </div>
+                                    <a href="" class="uk-position-cover"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="uk-grid uk-grid-8 uk-flex-middle item__10" uk-grid>
-                            <div class="uk-width-auto">
-                                <div class="uk-cover-container uk-border-circle">
-                                    <img src="images/noimage.jpg" alt="" uk-cover="">
-                                    <canvas width="50" height="50"></canvas>
+                        <div class="uk-text-center lophoc__txtSmall">Để trải nghiệm học thử được tốt nhất, vui lòng truy cập vào lớp trên máy tính sử dụng trình duyệt Google Chrome; hoặc tải app Chip Chip Students trên máy tính bảng.</div>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="uk-visible@m">
+                <h3 class="uk-h3 uk-margin-remove giaovien__list__title">Lớp học của con</h3>
+                <div class="uk-grid uk-margin uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-card lophoc__card uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                            <div class="lophoc__card__box uk-border-rounded">
+                                <div class="uk-flex-middle uk-grid-5" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <div class="lophoc__card__txt1">Đã đặt lịch</div>
+                                    </div>
+                                    <div class="uk-width-auto">
+
+                                    </div>
                                 </div>
                             </div>
-                            <div class="uk-width-expand">
-                                <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
-                                <div><span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span></div>
+                            <div class="uk-grid uk-grid-8 uk-flex-middle item__10" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="50" height="50"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                    <div><span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span></div>
+                                </div>
                             </div>
+                            <div class="item__5 lophoc__card__txtDate">20:00 Thứ 5 23/12/2022</div>
+                            <div class="uk-margin-small-top"><a href="" class="lophoc__card__btn lophoc__card__btn--vaolop uk-button uk-button-primary uk-width uk-border-pill">Vào lớp học</a></div>
+                            <div class="item__8"><a href="" class="lophoc__card__btn lophoc__card__btn--hocthu uk-button uk-button-default uk-width uk-border-pill">Hướng dẫn học thử</a></div>
                         </div>
-                        <div class="item__5 lophoc__card__txtDate">20:00 Thứ 5 23/12/2022</div>
-                        <div class="lophoc__card__desc">What do you like doing?</div>
-                        <div class="uk-margin-small-top"><a href="" class="lophoc__card__btn uk-button uk-button-primary uk-width uk-border-pill">Nhận xét của giáo viên</a></div>
-                        <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Video buổi học</a></div>
-                        <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Luyện tập</a></div>
+                    </div>
+                    <div>
+                        <div class="uk-card lophoc__card uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                            <div class="lophoc__card__box uk-border-rounded">
+                                <div class="uk-flex-middle uk-grid-5" uk-grid>
+                                    <div class="uk-width-expand">
+                                        <div class="lophoc__card__txt1">Đã hoàn thành</div>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <div class="lophoc__card__rate">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-grid-8 uk-flex-middle item__10" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="50" height="50"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h5 class="uk-h5 uk-margin-remove home__giaovien__card__name"><a href="">Thầy Edward</a></h5>
+                                    <div><span class="home__giaovien__card__tag uk-label uk-label-warning uk-border-pill uk-text-capitalize">Super Teacher</span></div>
+                                </div>
+                            </div>
+                            <div class="item__5 lophoc__card__txtDate">20:00 Thứ 5 23/12/2022</div>
+                            <div class="lophoc__card__desc">What do you like doing?</div>
+                            <div class="uk-margin-small-top"><a href="" class="lophoc__card__btn uk-button uk-button-primary uk-width uk-border-pill">Nhận xét của giáo viên</a></div>
+                            <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Video buổi học</a></div>
+                            <div class="item__8"><a href="" class="lophoc__card__btn uk-button uk-button-default uk-width uk-border-pill">Luyện tập</a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card lophoc__card uk-position-relative uk-flex uk-flex-middle uk-flex-center uk-text-center uk-card-body uk-card-default uk-padding-small uk-border-rounded">
+                            <div>
+                                <div class="lophoc__iconPlus"></div>
+                                <div class="lophoc__card__txtAdd">Thêm buổi học</div>
+                            </div>
+                            <a href="" class="uk-position-cover"></a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div class="uk-card lophoc__card uk-position-relative uk-flex uk-flex-middle uk-flex-center uk-text-center uk-card-body uk-card-default uk-padding-small uk-border-rounded">
-                        <div>
-                            <div class="lophoc__iconPlus"></div>
-                            <div class="lophoc__card__txtAdd">Thêm buổi học</div>
-                        </div>
-                        <a href="" class="uk-position-cover"></a>
-                    </div>
-                </div>
+                <div class="uk-text-center lophoc__txtSmall">Để trải nghiệm học thử được tốt nhất, vui lòng truy cập vào lớp trên máy tính sử dụng trình duyệt Google Chrome; hoặc tải app Chip Chip Students trên máy tính bảng.</div>
             </div>
         </div>
     </div>
