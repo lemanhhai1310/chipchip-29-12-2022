@@ -62,7 +62,17 @@
 <?php if (isset($notBottom)): ?>
 <div class="bottomDetail uk-box-shadow-medium uk-position-bottom uk-hidden@m uk-position-fixed uk-section-xsmall uk-background-default">
     <div class="uk-container">
-
+        <div class="uk-grid-10 uk-grid uk-child-width-auto uk-flex-middle" uk-grid>
+            <div>
+                <a href="" class="uk-icon-button bottomDetail__icon" uk-icon="forward"></a>
+            </div>
+            <div>
+                <a href="" class="uk-button bottomDetail__btn bottomDetail__btn--nhantin uk-button-default uk-border-pill">Nhắn tin</a>
+            </div>
+            <div class="uk-width-expand">
+                <a href="" class="uk-button bottomDetail__btn bottomDetail__btn--datlop uk-width uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+            </div>
+        </div>
     </div>
 </div>
 <?php else: ?>

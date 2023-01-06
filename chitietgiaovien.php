@@ -91,6 +91,248 @@
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-large">
                     <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Lịch học</h5>
                     <div class="home__txt item__10">Chọn giờ học phù hợp với con. Mỗi buổi học kéo dài trong 25 phút.</div>
+
+                    <div class="uk-overflow-auto uk-margin-small">
+                        <table class="uk-table datlich__04__popup__table1">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th class="uk-active">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">19</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Chủ nhật</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">20</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Hai</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">21</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Ba</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">22</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Tư</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">23</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ năm</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">24</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ sáu</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <th class="">
+                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                        <div class="uk-width-auto uk-first-column">
+                                            <span class="uk-border-circle datlich__04__popup__select1">25</span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ bảy</span>
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                <td></td>
+                                <td class="dadat1">
+                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                </td>
+                                <td class="datlich1">
+                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                </td>
+                                <td class="bandadat1">
+                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <!--/Lịch học-->
 
@@ -173,13 +415,13 @@
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
                     <div class="uk-margin">
                         <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Trình độ</h5>
-                        <table class="uk-table uk-table-divider">
+                        <table class="uk-table uk-table-small uk-table-justify uk-table-divider chitietgiaovien__table">
                             <tbody>
                             <tr>
-                                <td>2015 -- 2019</td>
+                                <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2015 -- 2019</div></td>
                                 <td>
-                                    <div>Đại học Kinh Tế Philippines</div>
-                                    <div>Cử nhân ngành Kinh doanh Quốc tế</div>
+                                    <div class="chitietgiaovien__table__txtTitle">Đại học Kinh Tế Philippines</div>
+                                    <div class="chitietgiaovien__table__txt">Cử nhân ngành Kinh doanh Quốc tế</div>
                                 </td>
                             </tr>
                             </tbody>
@@ -187,14 +429,14 @@
                     </div>
                     <div class="uk-margin">
                         <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Chứng chỉ</h5>
-                        <div class="uk-grid uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                        <div class="uk-grid uk-child-width-1-3@m uk-margin-small uk-grid-small uk-grid-30-m" uk-grid>
                             <div>
                                 <div class="uk-text-center">
                                     <div class="uk-cover-container">
                                         <img src="images/noimage.jpg" alt="" uk-cover="">
                                         <canvas width="221" height="139"></canvas>
                                     </div>
-                                    <div>TEFL</div>
+                                    <div class="item__5">TEFL</div>
                                 </div>
                             </div>
                             <div>
@@ -203,34 +445,34 @@
                                         <img src="images/noimage.jpg" alt="" uk-cover="">
                                         <canvas width="221" height="139"></canvas>
                                     </div>
-                                    <div>TESOL</div>
+                                    <div class="item__5">TESOL</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="uk-margin">
                         <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Kinh nghiệm giảng dạy</h5>
-                        <table class="uk-table uk-table-divider">
+                        <table class="uk-table uk-table-small uk-table-justify uk-table-divider chitietgiaovien__table">
                             <tbody>
                             <tr>
-                                <td>2019 -- 2021</td>
+                                <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2019 -- 2021</div></td>
                                 <td>
-                                    <div>51Talk Online Learning Company</div>
-                                    <div>Giáo viên tiếng Anh online</div>
+                                    <div class="chitietgiaovien__table__txtTitle">51Talk Online Learning Company</div>
+                                    <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2021 -- 2022</td>
+                                <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2021 -- 2022</div></td>
                                 <td>
-                                    <div>Rarejob Inc.</div>
-                                    <div>Giáo viên tiếng Anh online</div>
+                                    <div class="chitietgiaovien__table__txtTitle">Rarejob Inc.</div>
+                                    <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2022 -- 2023</td>
+                                <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2022 -- 2023</div></td>
                                 <td>
-                                    <div>Talk915 Inc.</div>
-                                    <div>Giáo viên tiếng Anh online</div>
+                                    <div class="chitietgiaovien__table__txtTitle">Talk915 Inc.</div>
+                                    <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
                                 </td>
                             </tr>
                             </tbody>
@@ -242,6 +484,28 @@
                 <!--Bạn có thể sẽ thích-->
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
                     <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Bạn có thể sẽ thích</h5>
+                    <div class="uk-child-width-1-4@m uk-margin-small uk-grid uk-grid-small" uk-grid>
+                        <div>
+                            <div class="uk-cover-container">
+                                <img src="images/noimage.jpg" alt="" uk-cover="">
+                                <canvas width="196" height="183"></canvas>
+                                <div class="uk-position-bottom uk-position-small">
+                                    <h5 class="uk-h5 home__giaovien__card__name uk-margin-remove"><a href="">Thầy Edward</a></h5>
+                                </div>
+                            </div>
+                            <div class="item__5 uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid="">
+                                <div class="home__giaovien__card__star uk-first-column">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <span class="home__giaovien__card__star__count">5.0</span>
+                                </div>
+                                <div>
+                                    <div class="home__giaovien__card__txt1">67 đánh giá</div>
+                                </div>
+                            </div>
+                            <div class="home__txt item__5">Chứng chỉ TEFL, TESOL</div>
+                            <div class="home__txt item__5">2 năm kinh nghiệm</div>
+                        </div>
+                    </div>
                 </div>
                 <!--/Bạn có thể sẽ thích-->
 
