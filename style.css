@@ -1632,8 +1632,8 @@ body {
     height: 52px !important;
   }
 }
-.home__giaovien__card:hover .home__giaovien__card__iconPlay:before {
-  background-image: url("data:image/svg+xml,%3Csvg width='54' height='54' viewBox='0 0 54 54' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.0346 0.947815C12.6464 0.947815 0.982422 12.6118 0.982422 27C0.982422 41.3882 12.6464 53.0522 27.0346 53.0522C41.4228 53.0522 53.0868 41.3882 53.0868 27C53.0715 12.6182 41.4165 0.963189 27.0346 0.947815ZM38.0062 27.8301C37.8258 28.1919 37.5326 28.4852 37.1707 28.6655V28.6748L22.2838 36.1183C21.3644 36.5777 20.2468 36.2049 19.7873 35.2855C19.6567 35.0241 19.5894 34.7356 19.5911 34.4435V19.5566C19.5906 18.5288 20.4233 17.6953 21.4511 17.6948C21.7402 17.6947 22.0253 17.7618 22.2838 17.8911L37.1707 25.3346C38.0906 25.793 38.4647 26.9103 38.0062 27.8301Z' fill='red'/%3E%3C/svg%3E%0A");
+.home__giaovien__card .uk-cover-container:hover .home__giaovien__card__iconPlay:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='56' height='56' viewBox='0 0 56 56' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.9995 0C12.5355 0 -0.000488281 12.536 -0.000488281 28C-0.000488281 43.464 12.5355 56 27.9995 56C43.4635 56 55.9995 43.464 55.9995 28C55.9831 12.5429 43.4567 0.0165235 27.9995 0ZM39.7914 28.8922C39.5976 29.281 39.2825 29.5962 38.8935 29.79V29.8L22.8935 37.8001C21.9054 38.2938 20.7042 37.8931 20.2104 36.905C20.07 36.6241 19.9977 36.314 19.9995 36.0001V20.0001C19.999 18.8955 20.894 17.9997 21.9986 17.9991C22.3092 17.999 22.6157 18.0712 22.8935 18.21L38.8935 26.2101C39.8821 26.7027 40.2842 27.9036 39.7914 28.8922Z' fill='%2300b342'/%3E%3C/svg%3E%0A");
 }
 .home__giaovien__card__name {
   font-family: "iCiel Graphik Bold", sans-serif;
@@ -1785,6 +1785,10 @@ body {
 .giaovien__list__txt span {
   font-family: "iCiel Graphik Bold", sans-serif;
 }
+.giaovien__filter__txt {
+  font-family: "iCiel Graphik Medium", sans-serif;
+  color: #000;
+}
 .giaovien__filter__btn {
   text-transform: inherit;
   font-family: "iCiel Graphik Medium", sans-serif;
@@ -1799,11 +1803,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 30px;
   border-radius: 500px;
   min-height: 40px;
   background: #F3F5FA;
   cursor: pointer;
+  font-size: 15px;
+  color: #000;
 }
 .giaovien__filter__radio:checked ~ .giaovien__filter__box, .giaovien__filter__checkbox:checked ~ .giaovien__filter__box {
   background: #00b342;

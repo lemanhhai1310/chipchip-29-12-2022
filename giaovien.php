@@ -61,17 +61,11 @@
                     </button>
                     <div class="uk-width-xlarge" uk-dropdown="mode: click">
                         <div class="uk-margin">
-                            <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Checkbox</h5>
-                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
-                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox" checked> <span class="giaovien__filter__box">A</span></label>
-                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">B</span></label>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <h5 class="uk-h5 giaovien__filter__txt uk-margin-remove">Radio</h5>
-                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid">
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2" checked> <span class="giaovien__filter__box">A</span></label>
-                                <label><input class="uk-radio giaovien__filter__radio" type="radio" name="radio2"> <span class="giaovien__filter__box">B</span></label>
+                            <div class="uk-grid-10 item__10 uk-child-width-auto uk-grid" uk-grid>
+                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">Tiếng Anh giao tiếp</span></label>
+                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">Luyện thi Cambridge</span></label>
+                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">Luyện nói tự do (free talk)</span></label>
+                                <label><input class="uk-checkbox giaovien__filter__checkbox" type="checkbox"> <span class="giaovien__filter__box">Đạt điểm cao môn tiếng Anh ở lớp</span></label>
                             </div>
                         </div>
                     </div>
