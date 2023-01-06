@@ -8,14 +8,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1672781836">
+    <link rel="stylesheet" href="style.css?v=1673042594">
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js"></script>
-    <script src="js/app.js?v=1672781836"></script>
+    <script src="js/app.js?v=1673042594"></script>
 </head>
 <body class="">
 <!--app-->
@@ -23,7 +23,10 @@
     <header class="header uk-position-top uk-position-fixed uk-position-z-index" uk-sticky>
         <div class="uk-container">
             <nav class="uk-navbar-container uk-navbar  uk-navbar-transparent" uk-navbar>
-                <div class="uk-navbar-left"><a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a></div>
+                <div class="uk-navbar-left">
+                    <a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a>
+
+                </div>
                 <div class="uk-navbar-center uk-visible@m">
                     <ul class="uk-navbar-nav">
                         <li class="uk-active"><a href="giaovien.php">Tìm giáo viên</a></li>
@@ -130,40 +133,656 @@
                     <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-large">
                         <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Lịch học</h5>
                         <div class="home__txt item__10">Chọn giờ học phù hợp với con. Mỗi buổi học kéo dài trong 25 phút.</div>
+
+                        <div class="uk-overflow-auto uk-margin-small">
+                            <table class="uk-table datlich__04__popup__table1">
+                                <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="uk-active">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">19</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Chủ nhật</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">20</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Hai</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">21</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Ba</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">22</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Tư</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">23</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ năm</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">24</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ sáu</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="">
+                                        <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
+                                            <div class="uk-width-auto uk-first-column">
+                                                <span class="uk-border-circle datlich__04__popup__select1">25</span>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ bảy</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="datlich__04__popup__txt4">08:00</span></td>
+                                    <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
+                                    <td></td>
+                                    <td class="dadat1">
+                                        <span class="datlich__04__popup__txt5">Đã đặt</span>
+                                    </td>
+                                    <td class="datlich1">
+                                        <span class="datlich__04__popup__txt5">Đặt lịch</span>
+                                    </td>
+                                    <td class="bandadat1">
+                                        <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin-medium-top uk-text-center">
+                            <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Xem lịch đầy đủ</a>
+                        </div>
                     </div>
                     <!--/Lịch học-->
 
 
+                    <!--Đánh giá của phụ huynh-->
                     <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
+                        <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Đánh giá của phụ huynh</h5>
+                        <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle item__10" uk-grid>
+                            <div class="home__giaovien__card__star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span class="home__giaovien__card__star__count">5.0</span>
+                            </div>
+                            <div>
+                                <div class="home__giaovien__card__txt1">(67 đánh giá)</div>
+                            </div>
+                        </div>
+                        <div class="item__10">
+                            <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                                <div class="uk-width-small">
+                                    <div class="chitietgiaovien__danhgia__txt">5 sao</div>
+                                </div>
+                                <div>
+                                    <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                        <div class="uk-position-left" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                                <div class="uk-width-small">
+                                    <div class="chitietgiaovien__danhgia__txt">4 sao</div>
+                                </div>
+                                <div>
+                                    <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                        <div class="uk-position-left" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                                <div class="uk-width-small">
+                                    <div class="chitietgiaovien__danhgia__txt">3 sao</div>
+                                </div>
+                                <div>
+                                    <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                        <div class="uk-position-left" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                                <div class="uk-width-small">
+                                    <div class="chitietgiaovien__danhgia__txt">2 sao</div>
+                                </div>
+                                <div>
+                                    <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                        <div class="uk-position-left" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                                </div>
+                            </div>
+                            <div class="uk-grid uk-child-width-auto uk-flex-middle item__10 uk-grid-10" uk-grid>
+                                <div class="uk-width-small">
+                                    <div class="chitietgiaovien__danhgia__txt">1 sao</div>
+                                </div>
+                                <div>
+                                    <div class="uk-width-medium chitietgiaovien__danhgia__progess uk-position-relative">
+                                        <div class="uk-position-left" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="chitietgiaovien__danhgia__txt">(50)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-child-width-1-2@m uk-margin-top" uk-grid>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-grid uk-grid-10" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <div class="uk-cover-container uk-border-circle">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="70" height="70"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                        <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin-medium-top uk-text-center">
+                            <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Xem tất cả 53 đánh giá</a>
+                        </div>
                     </div>
+                    <!--/Đánh giá của phụ huynh-->
+
+                    <!--Trình độ-->
                     <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Trình độ</h5>
+                            <table class="uk-table uk-table-small uk-table-justify uk-table-divider chitietgiaovien__table">
+                                <tbody>
+                                <tr>
+                                    <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2015 -- 2019</div></td>
+                                    <td>
+                                        <div class="chitietgiaovien__table__txtTitle">Đại học Kinh Tế Philippines</div>
+                                        <div class="chitietgiaovien__table__txt">Cử nhân ngành Kinh doanh Quốc tế</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Chứng chỉ</h5>
+                            <div class="uk-grid uk-child-width-1-3@m uk-margin-small uk-grid-small uk-grid-30-m" uk-grid>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="uk-cover-container">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="221" height="139"></canvas>
+                                        </div>
+                                        <div class="item__5">TEFL</div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="uk-text-center">
+                                        <div class="uk-cover-container">
+                                            <img src="images/noimage.jpg" alt="" uk-cover="">
+                                            <canvas width="221" height="139"></canvas>
+                                        </div>
+                                        <div class="item__5">TESOL</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Kinh nghiệm giảng dạy</h5>
+                            <table class="uk-table uk-table-small uk-table-justify uk-table-divider chitietgiaovien__table">
+                                <tbody>
+                                <tr>
+                                    <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2019 -- 2021</div></td>
+                                    <td>
+                                        <div class="chitietgiaovien__table__txtTitle">51Talk Online Learning Company</div>
+                                        <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2021 -- 2022</div></td>
+                                    <td>
+                                        <div class="chitietgiaovien__table__txtTitle">Rarejob Inc.</div>
+                                        <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="uk-width-small"><div class="chitietgiaovien__table__txt">2022 -- 2023</div></td>
+                                    <td>
+                                        <div class="chitietgiaovien__table__txtTitle">Talk915 Inc.</div>
+                                        <div class="chitietgiaovien__table__txt">Giáo viên tiếng Anh online</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
+                    <!--/Trình độ-->
+
+                    <!--Bạn có thể sẽ thích-->
                     <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
+                        <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Bạn có thể sẽ thích</h5>
+                        <div class="uk-child-width-1-4@m uk-margin-small uk-grid uk-grid-small" uk-grid>
+                            <div>
+                                <div class="uk-cover-container">
+                                    <img src="images/noimage.jpg" alt="" uk-cover="">
+                                    <canvas width="196" height="183"></canvas>
+                                    <div class="uk-position-bottom uk-position-small">
+                                        <h5 class="uk-h5 home__giaovien__card__name uk-margin-remove"><a href="">Thầy Edward</a></h5>
+                                    </div>
+                                </div>
+                                <div class="item__5 uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle" uk-grid="">
+                                    <div class="home__giaovien__card__star uk-first-column">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="home__giaovien__card__star__count">5.0</span>
+                                    </div>
+                                    <div>
+                                        <div class="home__giaovien__card__txt1">67 đánh giá</div>
+                                    </div>
+                                </div>
+                                <div class="home__txt item__5">Chứng chỉ TEFL, TESOL</div>
+                                <div class="home__txt item__5">2 năm kinh nghiệm</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
-                    </div>
-                    <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
-                    </div>
-                    <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
-                    </div>
-                    <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
-                    </div>
-                    <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
-                        1
-                    </div>
+                    <!--/Bạn có thể sẽ thích-->
+
                 </div>
                 <div class="uk-width-1-3@m uk-visible@m">
                     <aside class="sidebar">
                         <div class="uk-card uk-border-rounded uk-card-default uk-height-min-medium">
                             <div class="uk-cover-container uk-background-muted">
-                                <img src="https://picsum.photos/276/172/?random=" alt="" uk-cover="">
+                                <img src="https://picsum.photos/276/172/?random=7" alt="" uk-cover="">
                                 <canvas width="422" height="243"></canvas>
                                 <a href="" class="uk-position-cover home__giaovien__card__iconPlay uk-flex uk-flex-middle uk-flex-center"></a>
                             </div>
@@ -251,7 +870,17 @@
     </footer>
     <div class="bottomDetail uk-box-shadow-medium uk-position-bottom uk-hidden@m uk-position-fixed uk-section-xsmall uk-background-default">
         <div class="uk-container">
-
+            <div class="uk-grid-10 uk-grid uk-child-width-auto uk-flex-middle" uk-grid>
+                <div>
+                    <a href="" class="uk-icon-button bottomDetail__icon" uk-icon="forward"></a>
+                </div>
+                <div>
+                    <a href="" class="uk-button bottomDetail__btn bottomDetail__btn--nhantin uk-button-default uk-border-pill">Nhắn tin</a>
+                </div>
+                <div class="uk-width-expand">
+                    <a href="" class="uk-button bottomDetail__btn bottomDetail__btn--datlop uk-width uk-button-primary uk-border-pill">Đặt lớp học thử</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
