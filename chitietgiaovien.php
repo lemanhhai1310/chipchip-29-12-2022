@@ -333,6 +333,9 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="uk-margin-medium-top uk-text-center">
+                        <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Xem lịch đầy đủ</a>
+                    </div>
                 </div>
                 <!--/Lịch học-->
 
