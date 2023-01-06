@@ -1919,7 +1919,16 @@ body {
   border: 1px solid #000;
 }
 .chitietgiaovien__danhgia__progess > * {
-  background-color: #ffeb3b;
+  background-color: #ff9800;
+}
+.chitietgiaovien__danhgia__txtDate {
+  font-size: 13px;
+}
+.chitietgiaovien__danhgia__desc {
+  font-size: 15px;
+}
+.chitietgiaovien__danhgia__rate i.fa {
+  color: #ff9800;
 }
 .chitietgiaovien__info__number {
   font-family: "iCiel Graphik Bold", sans-serif;
@@ -2045,6 +2054,46 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' id='Layer_1' x='0px' y='0px' width='50.004px' height='50px' viewBox='0 0 50.004 50' style='enable-background:new 0 0 50.004 50;' xml:space='preserve'%3E%3Cpath d='M49.66,20L28.004,3.592v10.419c-8.362,0.192-15.041,2.816-19.862,7.807c-8.499,8.797-8.156,21.672-8.137,22.216l1.997,0.038 c0.003-0.045,0.361-4.501,3.809-8.961c4.461-5.771,12.122-8.908,22.194-9.102v10.4L49.66,20z M3.043,35.684 c0.981-3.979,2.88-8.695,6.548-12.487C14.212,18.421,20.743,16,29.004,16h1V7.616L46.348,20L30.004,32.385V24h-1 C13.734,24,6.475,30.2,3.043,35.684z'/%3E%3C/svg%3E");
 }
 
+.lophoc__tab {
+  margin-left: 0;
+}
+.lophoc__tab > li {
+  padding-left: 0;
+}
+.lophoc__tab > li > a {
+  border: 1px solid #000000;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  text-transform: inherit !important;
+  color: #000 !important;
+  background: #e0e0e0;
+  min-width: 90px;
+  text-align: center !important;
+  justify-content: center;
+}
+.lophoc__tab > li:nth-child(n+2) > a {
+  border-left: none;
+}
+.lophoc__tab > li.uk-active > a {
+  background: #ffffff;
+  color: #000;
+}
+.lophoc__txtSmall {
+  font-size: 13px;
+}
+.lophoc__txtSmall {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .lophoc__txtSmall {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .lophoc__txtSmall {
+    font-size: 15px !important;
+  }
+}
 .lophoc__card {
   border: 1px solid #cccccc;
 }
@@ -2053,9 +2102,13 @@ body {
     border-radius: 20px;
   }
 }
+.lophoc__card__box {
+  background: #F0F0F0;
+  padding: 3px 6px;
+}
 .lophoc__card__txt1 {
   font-family: "iCiel Graphik Medium", sans-serif;
-  color: #000;
+  color: #424242;
   align-items: center;
   display: flex;
 }
@@ -2086,16 +2139,42 @@ body {
 }
 .lophoc__card__btn {
   text-transform: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lophoc__card__btn:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .lophoc__card__btn.uk-button-primary {
   background: #00b342;
+}
+.lophoc__card__btn--vaolop:before {
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' id='Layer_1' x='0px' y='0px' width='50px' height='50px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Cpath d='M50,3v44c0,1.654-1.346,3-3,3H13c-1.654,0-3-1.346-3-3V28h2v19c0,0.552,0.449,1,1,1h34c0.552,0,1-0.448,1-1V3 c0-0.551-0.448-1-1-1H13c-0.551,0-1,0.449-1,1v19h-2V3c0-1.654,1.346-3,3-3h34C48.654,0,50,1.346,50,3z M21.346,35.183 c-0.391,0.391-0.391,1.023,0,1.414c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293L34.357,25L22.761,13.403 c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414L30.529,24H1c-0.552,0-1,0.448-1,1c0,0.553,0.448,1,1,1h29.529 L21.346,35.183z'/%3E%3C/svg%3E");
+}
+.lophoc__card__btn--hocthu:before {
+  margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23424242' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' id='Layer_1' x='0px' y='0px' width='50px' height='50px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Cpath d='M37,19.326V14c0-2.757-2.243-5-5-5H5c-2.757,0-5,2.243-5,5v22c0,2.757,2.243,5,5,5h27c2.757,0,5-2.243,5-5v-5.326l13,7 V12.326L37,19.326z M35,36c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V14c0-1.654,1.346-3,3-3h27c1.654,0,3,1.346,3,3V36z M48,34.326l-11-5.924v-6.805l11-5.923V34.326z'/%3E%3C/svg%3E");
 }
 .lophoc__iconPlus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%23bdbdbd'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%23bdbdbd'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%2300b342'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%2300b342'/%3E%3C/svg%3E");
   min-height: 121px;
+}
+@media (min-width: 960px) {
+  .lophoc__iconPlus {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%23bdbdbd'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%23bdbdbd'/%3E%3C/svg%3E");
+  }
 }
 .lophoc__card:hover .lophoc__iconPlus {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%2300b342'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%2300b342'/%3E%3C/svg%3E");

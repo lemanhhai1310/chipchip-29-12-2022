@@ -95,7 +95,7 @@
                 <!--/Lịch học-->
 
 
-                <!--Đánh giá của phụ huynhc-->
+                <!--Đánh giá của phụ huynh-->
                 <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
                     <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Đánh giá của phụ huynh</h5>
                     <div class="uk-grid uk-child-width-auto uk-grid-5 uk-flex-middle item__10" uk-grid>
@@ -124,8 +124,126 @@
                         </div>
                         <?php endfor; ?>
                     </div>
+                    <div class="uk-grid uk-child-width-1-2@m uk-margin-top" uk-grid>
+                        <?php for ($i=1;$i<=6;$i++): ?>
+                        <div>
+                            <div class="uk-grid uk-grid-10" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="70" height="70"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <h6 class="uk-h6 home__giaovien__card__name"><a href="">Nguyễn Hoàng Tôn</a></h6>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-position-relative chitietgiaovien__danhgia__rate">
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                <div class="uk-position-left uk-text-nowrap uk-overflow-hidden" style="width: 30%">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="chitietgiaovien__danhgia__txtDate item__5">12/3/2022</div>
+                                    <div class="chitietgiaovien__danhgia__desc item__10 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat</div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endfor; ?>
+                    </div>
+                    <div class="uk-margin-medium-top uk-text-center">
+                        <a href="" uk-icon="icon: chevron-right; ratio: 1" class="home__btnLarge home__btnLarge--default uk-border-pill uk-button uk-button-primary uk-button-large uk-width-1-1 uk-width-auto@m">Xem tất cả 53 đánh giá</a>
+                    </div>
                 </div>
                 <!--/Đánh giá của phụ huynh-->
+
+                <!--Trình độ-->
+                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
+                    <div class="uk-margin">
+                        <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Trình độ</h5>
+                        <table class="uk-table uk-table-divider">
+                            <tbody>
+                            <tr>
+                                <td>2015 -- 2019</td>
+                                <td>
+                                    <div>Đại học Kinh Tế Philippines</div>
+                                    <div>Cử nhân ngành Kinh doanh Quốc tế</div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="uk-margin">
+                        <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Chứng chỉ</h5>
+                        <div class="uk-grid uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                            <div>
+                                <div class="uk-text-center">
+                                    <div class="uk-cover-container">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="221" height="139"></canvas>
+                                    </div>
+                                    <div>TEFL</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-text-center">
+                                    <div class="uk-cover-container">
+                                        <img src="images/noimage.jpg" alt="" uk-cover="">
+                                        <canvas width="221" height="139"></canvas>
+                                    </div>
+                                    <div>TESOL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Kinh nghiệm giảng dạy</h5>
+                        <table class="uk-table uk-table-divider">
+                            <tbody>
+                            <tr>
+                                <td>2019 -- 2021</td>
+                                <td>
+                                    <div>51Talk Online Learning Company</div>
+                                    <div>Giáo viên tiếng Anh online</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2021 -- 2022</td>
+                                <td>
+                                    <div>Rarejob Inc.</div>
+                                    <div>Giáo viên tiếng Anh online</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2022 -- 2023</td>
+                                <td>
+                                    <div>Talk915 Inc.</div>
+                                    <div>Giáo viên tiếng Anh online</div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--/Trình độ-->
+
+                <!--Bạn có thể sẽ thích-->
+                <div class="uk-card item__15 uk-card-body uk-card-default uk-padding-small uk-border-rounded uk-height-min-small">
+                    <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Bạn có thể sẽ thích</h5>
+                </div>
+                <!--/Bạn có thể sẽ thích-->
 
             </div>
             <div class="uk-width-1-3@m uk-visible@m">

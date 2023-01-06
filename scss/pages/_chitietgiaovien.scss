@@ -36,7 +36,18 @@
       height: 10px;
       border: 1px solid #000;
       >*{
-        background-color: #ffeb3b;
+        background-color: #ff9800;
+      }
+    }
+    &__txtDate{
+      font-size: 13px;
+    }
+    &__desc{
+      font-size: 15px;
+    }
+    &__rate{
+      i.fa{
+        color: #{$secondary-color};
       }
     }
   }
