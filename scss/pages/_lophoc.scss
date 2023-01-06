@@ -1,1 +1,59 @@
-.lophoc{}
+.lophoc{
+  &__card{
+    //padding: 10px;
+    border: 1px solid #cccccc;
+    @include media-breakpoint-up('m'){
+      border-radius: 20px;
+    }
+    &__txt1{
+      font-family: $font-iCiel-Graphik-Medium;
+      color: #000;
+      align-items: center;
+      display: flex;
+      &:before{
+        margin-right: 3px;
+        content: "";
+        $x:20px;
+        width: #{$x};
+        height: #{$x};
+        display: flex;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.361 0-13.328 5.967-13.328 13.328s5.968 13.328 13.328 13.328c7.361 0 13.328-5.967 13.328-13.328s-5.967-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.5-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.5 12.262-12.262 12.262z' fill='%2300b342'/%3E%3Cpath d='M22.667 11.241l-8.559 8.299-2.998-2.998c-0.312-0.312-0.818-0.312-1.131 0s-0.312 0.818 0 1.131l3.555 3.555c0.156 0.156 0.361 0.234 0.565 0.234 0.2 0 0.401-0.075 0.556-0.225l9.124-8.848c0.317-0.308 0.325-0.814 0.018-1.131-0.309-0.318-0.814-0.325-1.131-0.018z' fill='%2300b342'/%3E%3C/svg%3E");
+      }
+    }
+    &__rate{
+      i.fa{
+        color: #ff9800;
+      }
+    }
+    &__txtDate{
+      font-size: 13px;
+      color: #000;
+    }
+    &__desc{
+      color: #000;
+    }
+    &__txtAdd{
+      color: #000;
+      font-size: 14px;
+    }
+    &__btn{
+      text-transform: inherit;
+      &.uk-button-primary{
+        background: #{$primary-color};
+      }
+    }
+  }
+  &__iconPlus{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%23bdbdbd'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%23bdbdbd'/%3E%3C/svg%3E");
+    min-height: 121px;
+    .lophoc__card:hover &{
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%2300b342'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%2300b342'/%3E%3C/svg%3E");
+    }
+  }
+}
