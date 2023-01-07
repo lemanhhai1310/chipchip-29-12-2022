@@ -92,244 +92,58 @@
                     <h5 class="uk-h5 chitietgiaovien__about__title uk-margin-remove">Lịch học</h5>
                     <div class="home__txt item__10">Chọn giờ học phù hợp với con. Mỗi buổi học kéo dài trong 25 phút.</div>
 
-                    <div class="uk-overflow-auto uk-margin-small">
-                        <table class="uk-table datlich__04__popup__table1">
+                    <div class="uk-grid uk-grid-5 uk-flex-middle uk-child-width-auto" uk-grid>
+                        <div>
+                            <a href="" class="modal__popup3__icon modal__popup3__icon--prev"></a>
+                        </div>
+                        <div>
+                            <a href="" class="modal__popup3__icon modal__popup3__icon--next"></a>
+                        </div>
+                        <div><div class="uk-text-center">19/12 - 25/12/2022</div></div>
+                    </div>
+                    <div class="uk-margin-small uk-overflow-auto">
+                        <table class="uk-table uk-table-small modal__popup3__table">
                             <thead>
                             <tr>
-                                <th></th>
-                                <th class="uk-active">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">19</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Chủ nhật</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Mon</div>
+                                    <div>26</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">20</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Hai</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Tue</div>
+                                    <div>27</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">21</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Ba</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Web</div>
+                                    <div>28</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">22</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ Tư</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Thu</div>
+                                    <div>29</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">23</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ năm</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Fri</div>
+                                    <div>30</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">24</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ sáu</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Sat</div>
+                                    <div>31</div>
                                 </th>
-                                <th class="">
-                                    <div class="uk-grid-4 uk-flex-middle uk-grid" uk-grid="">
-                                        <div class="uk-width-auto uk-first-column">
-                                            <span class="uk-border-circle datlich__04__popup__select1">25</span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <span class="datlich__04__popup__txt3 uk-text-truncate">Thứ bảy</span>
-                                        </div>
-                                    </div>
+                                <th>
+                                    <div>Sun</div>
+                                    <div>1</div>
                                 </th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><span class="datlich__04__popup__txt4">08:00</span></td>
-                                <td class="datlich__04__popup__cancel uk-background-top-center uk-background-cover"></td>
-                                <td></td>
-                                <td class="dadat1">
-                                    <span class="datlich__04__popup__txt5">Đã đặt</span>
-                                </td>
-                                <td class="datlich1">
-                                    <span class="datlich__04__popup__txt5">Đặt lịch</span>
-                                </td>
-                                <td class="bandadat1">
-                                    <span class="datlich__04__popup__txt5">Bạn đã đặt</span>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                            <?php for ($j=1;$j<=7;$j++): ?>
+                                <tr>
+                                    <?php for ($i=1;$i<=6;$i++): ?>
+                                        <td><div class="modal__popup3__table__txtDate">13:00</div></td>
+                                    <?php endfor; ?>
+                                    <td></td>
+                                </tr>
+                            <?php endfor; ?>
                             </tbody>
                         </table>
                     </div>
