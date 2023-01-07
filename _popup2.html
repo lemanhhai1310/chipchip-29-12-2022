@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="REFRESH" content="1800"/>
+    <title>Popup2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1673057939">
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1673057939"></script>
+</head>
+<body class="">
+<!--app-->
+<div id="app" class="app uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <header class="header uk-position-top uk-position-fixed uk-position-z-index" uk-sticky>
+        <div class="uk-container">
+            <nav class="uk-navbar-container uk-navbar  uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <a href="." class="uk-navbar-item uk-logo"><img src="images/logo_h.png" alt=""></a>
+                    <ul class="uk-navbar-nav header__navdivider uk-visible@m">
+                        <li class="uk-active"><a href="lophoc.php">Lớp học</a></li>
+                        <li class=""><a href="giaovien.php">Tìm giáo viên</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-visible@m">
+
+                </div>
+                <div class="uk-navbar-right">
+                    <div class="uk-navbar-item">
+                        <a href="" class="uk-button header__btn uk-button-primary uk-border-pill">Mua thêm buổi học</a>
+                    </div>
+                    <div class="uk-navbar-item uk-visible@m">
+                        <a href="" class="header__icon header__icon--comment"></a>
+                    </div>
+                    <div class="uk-navbar-item uk-visible@m">
+                        <a href="" class="header__icon header__icon--qa"></a>
+                    </div>
+                    <div class="uk-navbar-item uk-visible@m">
+                        <a href="" class="header__icon header__icon--user"></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="uk-background-muted uk-section-xsmall" uk-height-viewport="offset-top: true">
+        <div class="uk-container">
+
+        </div>
+    </div>
+
+
+    <!-- This is the modal with the default close button -->
+    <div id="modal-popup2" class="modal__popup2 uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog modal__dialog uk-margin-auto-vertical uk-modal-body">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h2 class="uk-modal-title modal__title uk-text-center">Đăng ký để bắt đầu học tập</h2>
+            <div class="uk-margin">
+                <div class="item__8">
+                    <input class="uk-input modal__popup1__input uk-border-rounded" type="text" placeholder="Tên học sinh" aria-label="Input">
+                </div>
+                <div class="item__8">
+                    <input class="uk-input modal__popup1__input uk-border-rounded" type="text" placeholder="Năm sinh" aria-label="Input">
+                </div>
+                <div class="item__8">
+                    <input class="uk-input modal__popup1__input uk-border-rounded" type="text" placeholder="Mật khẩu" aria-label="Input">
+                </div>
+                <div class="item__8">
+                    <input class="uk-input modal__popup1__input uk-border-rounded" type="text" placeholder="Nhập mã OTP nhận được từ SMS" aria-label="Input">
+                </div>
+            </div>
+            <div>
+                <button class="uk-button modal__popup1__btn uk-button-primary uk-width uk-border-pill">Đăng ký</button>
+            </div>
+            <div class=" uk-text-center uk-margin modal__popup1__txt">Bạn đã có tài khoản? Vui lòng <a href="">Đăng nhập</a></div>
+        </div>
+    </div>
+
+    <script>
+        UIkit.modal('#modal-popup2').show();
+    </script>
+
+    <footer class="footer">
+        <div class="footer__top uk-section uk-background-default uk-height-min-medium">
+            <div class="uk-container">
+                <div class="uk-grid uk-grid-small" uk-grid>
+                    <div class="uk-width-2-5@m">
+                        <figure><a href=""><img src="images/logo_f.png" alt=""></a></figure>
+                        <div class="footer__top__txt">Công ty CP Công nghệ Giáo dục ChipChip</div>
+                        <div class="uk-margin">
+                            <a href="" class="uk-icon-button box-social__icon uk-margin-small-right uk-icon" uk-icon="twitter"></a>
+                            <a href="" class="uk-icon-button box-social__icon uk-margin-small-right uk-icon" uk-icon="facebook"></a>
+                            <a href="" class="uk-icon-button box-social__icon uk-icon" uk-icon="youtube"></a>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <h5 class="uk-h5 footer__top__title">Truy cập</h5>
+                        <ul class="uk-nav footer__top__nav uk-nav-default item__10">
+                            <li><a href="">Giáo viên</a></li>
+                            <li><a href="">Chương trình học</a></li>
+                            <li><a href="">Nền tảng học</a></li>
+                            <li><a href="">Về chúng tôi</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 footer__top__title">Miễn phí tải về</h5>
+                            <div class="footer__top__txt item__10">Phần mềm học cho bé & phụ huynh</div>
+                            <div class="uk-grid item__10 uk-child-width-auto uk-grid-small" uk-grid>
+                                <div><a href=""><img src="images/appstore.png" alt=""></a></div>
+                                <div><a href=""><img src="images/googleplay.png" alt=""></a></div>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 footer__top__title">Điện thoại</h5>
+                            <div class="footer__top__txt item__10">024 66624235 - 0983 005 801</div>
+                        </div>
+                        <div class="uk-margin">
+                            <h5 class="uk-h5 footer__top__title">Địa chỉ</h5>
+                            <div class="footer__top__txt item__10">Tầng 9, N2, 210 Lê Trọng Tấn, toà nhà ACCI, 210 Lê Trọng Tấn, Thanh Xuân, Hà Nội</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section-xsmall uk-background-muted footer__bottom">
+            <div class="uk-container">
+                <div class="uk-grid uk-flex-middle uk-grid-10 uk-text-center" uk-grid>
+                    <div class="uk-width-expand">
+                        <ul class="footer__bottom__siteMap uk-subnav uk-subnav-divider uk-flex-left@m uk-flex-center">
+                            <li><a href="">© 2020 Chipchip. All rights reserved</a></li>
+                            <li class="uk-visible@s"><a href="">Điều khoản sử dụng</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-auto@s">
+                        <img src="images/bct.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottomSticky uk-position-bottom uk-position-fixed uk-background-default uk-box-shadow-small">
+        <div class="uk-container">
+            <div class="uk-grid uk-flex-bottom" uk-grid>
+                <div class="uk-width-auto">
+                    <div class="uk-position-relative bottomSticky__boxImg">
+                        <img class="uk-position-bottom" uk-scrollspy="cls: uk-animation-slide-bottom;" src="images/Popup-CTA-1.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="bottomSticky__section" uk-toggle="cls: bottomSticky__section; mode: media; media: @m">
+                        <div class="uk-grid uk-flex-middle uk-flex-right uk-flex-left@m uk-child-width-auto uk-grid-12 uk-grid-40-m" uk-grid>
+                            <div>
+                                <div class="bottomSticky__txt">Đăng ký học thử <br class="uk-hidden@m"> <span>MIỄN PHÍ</span> ngay!</div>
+                            </div>
+                            <div>
+                                <a href="" class="uk-button header__btn header__btn--bottom uk-button-primary uk-border-rounded">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/app-->
+</body>
+</html>
