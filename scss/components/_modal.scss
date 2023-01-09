@@ -20,14 +20,56 @@
     }
     &__btn{
       text-transform: inherit;
-      background: #{$primary-color};
-      &:hover{
-        background: rgba($primary-color,.8);
+      &.uk-button-primary{
+        background: #{$primary-color};
+        &:hover{
+          background: rgba($primary-color,.8);
+        }
       }
     }
   }
   &__popup2{
 
+  }
+  &__popup5{
+    &__radio{
+      display: none;
+    }
+    &__box{
+      border: 1px solid #cccccc;
+      border-radius: 8px;
+      overflow: hidden;
+      padding: 10px;
+      width: 100px;
+      cursor: pointer;
+      .modal__popup5__radio:checked ~ &{
+        border-color: #{$primary-color};
+      }
+    }
+    &__txt1{
+      color: #000;
+      font-family: $font-iCiel-Graphik-Medium;
+    }
+    &__txt2{
+      font-family: $font-iCiel-Graphik-Medium;
+    }
+    &__saochep{
+      color: #{$primary-color};
+      &:before{
+        content: "";
+        $x:20px;
+        width: #{$x};
+        height: #{$x};
+        display: inline-flex;
+        background-image: url("data:image/svg+xml,%3Csvg fill='%2300b342' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' id='Layer_1' x='0px' y='0px' width='50px' height='50px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M0,8v42h31V20.586L18.414,8H0z M29,48H2V10h15v12h12V48z M19,11.414L27.586,20H19V11.414z'/%3E%3Cpath d='M37.414,0H19v6l2,2V2h15v12h12v26H33v2h17V12.586L37.414,0z M38,3.414L46.586,12H38V3.414z'/%3E%3C/g%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-right: 5px;
+        position: relative;
+        top: 2px;
+      }
+    }
   }
   &__popup4{
     &__item{
@@ -162,6 +204,7 @@
     font-family: $font-iCiel-Graphik-Bold;
     //font-size: 23px;
     @include fluidx(23px,18px,font-size);
+    color: #000;
   }
   &__dialog{
     width: 450px;

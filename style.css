@@ -1229,10 +1229,49 @@ body {
 }
 .modal__popup1__btn {
   text-transform: inherit;
+}
+.modal__popup1__btn.uk-button-primary {
   background: #00b342;
 }
-.modal__popup1__btn:hover {
+.modal__popup1__btn.uk-button-primary:hover {
   background: rgba(0, 179, 66, 0.8);
+}
+.modal__popup5__radio {
+  display: none;
+}
+.modal__popup5__box {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.modal__popup5__radio:checked ~ .modal__popup5__box {
+  border-color: #00b342;
+}
+.modal__popup5__txt1 {
+  color: #000;
+  font-family: "iCiel Graphik Medium", sans-serif;
+}
+.modal__popup5__txt2 {
+  font-family: "iCiel Graphik Medium", sans-serif;
+}
+.modal__popup5__saochep {
+  color: #00b342;
+}
+.modal__popup5__saochep:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  background-image: url("data:image/svg+xml,%3Csvg fill='%2300b342' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' id='Layer_1' x='0px' y='0px' width='50px' height='50px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M0,8v42h31V20.586L18.414,8H0z M29,48H2V10h15v12h12V48z M19,11.414L27.586,20H19V11.414z'/%3E%3Cpath d='M37.414,0H19v6l2,2V2h15v12h12v26H33v2h17V12.586L37.414,0z M38,3.414L46.586,12H38V3.414z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
 }
 .modal__popup4__item:nth-child(n+2) {
   margin-top: 10px;
@@ -1351,6 +1390,7 @@ body {
 }
 .modal__title {
   font-family: "iCiel Graphik Bold", sans-serif;
+  color: #000;
 }
 .modal__title {
   font-size: 18px !important;
