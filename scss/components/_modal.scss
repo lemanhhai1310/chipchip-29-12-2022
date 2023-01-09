@@ -21,10 +21,80 @@
     &__btn{
       text-transform: inherit;
       background: #{$primary-color};
+      &:hover{
+        background: rgba($primary-color,.8);
+      }
     }
   }
   &__popup2{
 
+  }
+  &__popup4{
+    &__item{
+      &:nth-child(n+2){
+        $x:10px;
+        margin-top: #{$x};
+        padding-top: #{$x};
+        border-top: 1px solid #cccccc;
+      }
+    }
+    &__txtSmall{
+      font-size: 14px;
+    }
+    &__label{
+      font-family: $font-iCiel-Graphik-Bold;
+      color: #000;
+    }
+    &__boxRadio{
+      padding: 10px;
+      border: 1px solid #cccccc;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+    }
+    &__radio{
+      margin-right: 6px;
+      border-color: #{$primary-color};
+      &:checked{
+        background-color: #{$primary-color};
+      }
+    }
+    &__span{
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      &:before{
+        content: "";
+        background: var(--url) no-repeat center;
+        background-size: contain;
+        $x:24px;
+        width: #{$x};
+        height: #{$x};
+        display: inline-flex;
+        margin-right: 6px;
+      }
+    }
+    &__boxKm{
+      font-size: 14px;
+      padding: 10px;
+      padding-left: 40px;
+      border-radius: 10px;
+      color: #000;
+      position: relative;
+      &:before{
+        content: "";
+        background: url("images/refund.png") no-repeat center;
+        background-size: contain;
+        $x:24px;
+        width: #{$x};
+        height: #{$x};
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      background-color: rgba($primary-color,.3);
+    }
   }
   &__popup3{
     &__table{
@@ -32,6 +102,7 @@
         color: #1D9FA5;
         font-size: 13px;
         text-align: center;
+        cursor: pointer;
       }
       tr{
         td{
@@ -94,5 +165,8 @@
   }
   &__dialog{
     width: 450px;
+  }
+  &__dialog-m{
+    width: 500px;
   }
 }

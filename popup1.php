@@ -15,8 +15,11 @@
 <div id="modal-popup1" class="modal__popup1 uk-flex-top" uk-modal>
     <div class="uk-modal-dialog modal__dialog uk-margin-auto-vertical uk-modal-body">
         <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="modal__popup1__avarta">
-
+        <div class="uk-text-center">
+            <div class="modal__popup1__avarta uk-cover-container uk-border-circle uk-margin-auto uk-display-inline-block">
+                <img src="images/noimage.jpg" alt="" uk-cover="">
+                <canvas width="97" height="97"></canvas>
+            </div>
         </div>
         <h2 class="uk-modal-title modal__title uk-text-center">Đăng ký để bắt đầu học tập</h2>
         <div class="uk-text-center modal__popup1__txt">Chỉ còn 1 bước để hoàn tất đặt lịch học thử</div>

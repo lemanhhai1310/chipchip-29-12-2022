@@ -1231,10 +1231,74 @@ body {
   text-transform: inherit;
   background: #00b342;
 }
+.modal__popup1__btn:hover {
+  background: rgba(0, 179, 66, 0.8);
+}
+.modal__popup4__item:nth-child(n+2) {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #cccccc;
+}
+.modal__popup4__txtSmall {
+  font-size: 14px;
+}
+.modal__popup4__label {
+  font-family: "iCiel Graphik Bold", sans-serif;
+  color: #000;
+}
+.modal__popup4__boxRadio {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.modal__popup4__radio {
+  margin-right: 6px;
+  border-color: #00b342;
+}
+.modal__popup4__radio:checked {
+  background-color: #00b342;
+}
+.modal__popup4__span {
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+.modal__popup4__span:before {
+  content: "";
+  background: var(--url) no-repeat center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  margin-right: 6px;
+}
+.modal__popup4__boxKm {
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: 10px;
+  color: #000;
+  position: relative;
+  background-color: rgba(0, 179, 66, 0.3);
+}
+.modal__popup4__boxKm:before {
+  content: "";
+  background: url("images/refund.png") no-repeat center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 .modal__popup3__table__txtDate {
   color: #1D9FA5;
   font-size: 13px;
   text-align: center;
+  cursor: pointer;
 }
 .modal__popup3__table tr td {
   padding-top: 5px;
@@ -1303,6 +1367,9 @@ body {
 }
 .modal__dialog {
   width: 450px;
+}
+.modal__dialog-m {
+  width: 500px;
 }
 
 .line-clamp-1 {
