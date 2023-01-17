@@ -1,0 +1,7 @@
+.page1{
+  &__card{
+    &:hover{
+      background-color: #{$primary-color};
+    }
+  }
+}

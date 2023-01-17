@@ -3,10 +3,16 @@
     font-family: $font-iCiel-Graphik-Medium;
     line-height: 1.2;
     color: #171717;
+    .page1__card:hover &{
+      color: #FFFFFF;
+    }
   }
   &__txt{
     line-height: 1.6;
     color: #565656;
+    .page1__card:hover &{
+      color: #FFFFFF;
+    }
   }
   &__btnLarge{
     background: #{$primary-color};
@@ -28,6 +34,11 @@
           border-color: #000000 !important;
           color: #000 !important;
         }
+      }
+      .page1__card:hover &{
+        color: #000000 !important;
+        background: #FFFFFF !important;
+        border-color: #FFFFFF !important;
       }
     }
     &--default{

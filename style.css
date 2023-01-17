@@ -1695,9 +1695,15 @@ body {
   line-height: 1.2;
   color: #171717;
 }
+.page1__card:hover .home__title {
+  color: #FFFFFF;
+}
 .home__txt {
   line-height: 1.6;
   color: #565656;
+}
+.page1__card:hover .home__txt {
+  color: #FFFFFF;
 }
 .home__btnLarge {
   background: #00b342;
@@ -1720,6 +1726,11 @@ body {
     border-color: #000000 !important;
     color: #000 !important;
   }
+}
+.page1__card:hover .home__btnLarge--giaovien {
+  color: #000000 !important;
+  background: #FFFFFF !important;
+  border-color: #FFFFFF !important;
 }
 .home__btnLarge--default {
   background: #ffffff;
@@ -3077,6 +3088,134 @@ body {
 }
 .lophoc__card:hover .lophoc__iconPlus {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg id='icomoon-ignore'%3E%3C/g%3E%3Cpath d='M16 2.672c-7.362 0-13.328 5.966-13.328 13.328s5.966 13.328 13.328 13.328c7.362 0 13.328-5.966 13.328-13.328s-5.966-13.328-13.328-13.328zM16 28.262c-6.761 0-12.262-5.501-12.262-12.262s5.501-12.262 12.262-12.262c6.761 0 12.262 5.501 12.262 12.262s-5.501 12.262-12.262 12.262z' fill='%2300b342'/%3E%3Cpath d='M16.533 8.003h-1.066v7.464h-7.428v1.066h7.428v7.428h1.066v-7.428h7.464v-1.066h-7.464z' fill='%2300b342'/%3E%3C/svg%3E");
+}
+
+.price__card__number {
+  font-family: "HiraKakuStd-W8", sans-serif;
+  color: #424242;
+}
+.price__card__number {
+  font-size: 79px !important;
+}
+@media screen and (min-width: 640px) {
+  .price__card__number {
+    font-size: calc(79px + 14 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price__card__number {
+    font-size: 93px !important;
+  }
+}
+.price__card__buoihoc {
+  color: #424242;
+}
+.price__card__buoihoc {
+  font-size: 17px !important;
+}
+@media screen and (min-width: 640px) {
+  .price__card__buoihoc {
+    font-size: calc(17px + 3 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price__card__buoihoc {
+    font-size: 20px !important;
+  }
+}
+.price__card__price1 {
+  color: #424242;
+}
+.price__card__price1 {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .price__card__price1 {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price__card__price1 {
+    font-size: 15px !important;
+  }
+}
+.price__card__price {
+  font-family: "iCiel Graphik Bold", sans-serif;
+  color: #424242;
+}
+.price__card__price {
+  font-size: 19px !important;
+}
+@media screen and (min-width: 640px) {
+  .price__card__price {
+    font-size: calc(19px + 4 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price__card__price {
+    font-size: 23px !important;
+  }
+}
+.price__card__sale {
+  color: #00b342;
+  font-size: 20px;
+}
+.price__card__sale {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 640px) {
+  .price__card__sale {
+    font-size: calc(13px + 2 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .price__card__sale {
+    font-size: 15px !important;
+  }
+}
+.price__card__phobien {
+  top: 18px;
+  right: -9px;
+}
+
+.page1__card:hover {
+  background-color: #00b342;
+}
+
+.page2__card__title {
+  font-size: 18px;
+  font-family: "iCiel Graphik Bold", sans-serif;
+  color: #000;
+}
+.page2__card__desc {
+  font-size: 14px;
+  color: #000;
+}
+.page2__card__box__txt1 {
+  font-size: 15px;
+  font-family: "iCiel Graphik Medium", sans-serif;
+  color: #000;
+}
+.page2__card__box__txt2 {
+  font-size: 14px;
+}
+.page2__card__list > li {
+  color: #000;
+  font-size: 14px;
+}
+.page2__card__accordion .uk-accordion-content {
+  font-size: 14px;
+}
+.page2__card__accordion__title {
+  color: #00b342;
+  font-size: 14px;
+  font-family: "iCiel Graphik Medium", sans-serif;
+}
+.page2__card__accordion__title:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.03' points='16 7 10 13 4 7'%3E%3C/polyline%3E%3C/svg%3E");
+}
+.uk-open .page2__card__accordion__title:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.03' points='4 13 10 7 16 13'%3E%3C/polyline%3E%3C/svg%3E");
 }
 
 /*# sourceMappingURL=style.css.map */

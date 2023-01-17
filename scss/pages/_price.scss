@@ -1,0 +1,35 @@
+.price{
+  &__card{
+    &__number{
+      //font-size: 120px;
+      font-family: $font-HiraKakuStd-W8;
+      color: #424242;
+      @include fluidx(93px,79px,font-size);
+    }
+    &__buoihoc{
+      //font-size: 26px;
+      color: #424242;
+      @include fluidx(20px,17px,font-size);
+    }
+    &__price1{
+      //font-size: 20px;
+      color: #424242;
+      @include fluidx(15px,13px,font-size);
+    }
+    &__price{
+      //font-size: 30px;
+      font-family: $font-iCiel-Graphik-Bold;
+      color: #424242;
+      @include fluidx(23px,19px,font-size);
+    }
+    &__sale{
+      color: #{$primary-color};
+      font-size: 20px;
+      @include fluidx(15px,13px,font-size);
+    }
+    &__phobien{
+      top: 18px;
+      right: -9px;
+    }
+  }
+}
