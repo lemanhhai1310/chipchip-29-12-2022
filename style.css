@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "iCiel Graphik Regular", sans-serif;
 }
@@ -3216,6 +3217,55 @@ body {
 }
 .uk-open .page2__card__accordion__title:before {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.03' points='4 13 10 7 16 13'%3E%3C/polyline%3E%3C/svg%3E");
+}
+
+.page3__checkbox {
+  display: none;
+}
+.page3__labelBox {
+  position: relative;
+  min-height: 30px;
+  min-width: 75px;
+  background-color: #999;
+  display: inline-flex;
+  color: #FFFFFF;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.page3__checkbox:checked ~ .page3__labelBox {
+  background-color: #00b342;
+}
+.page3__labelBox:before {
+  font-size: 14px;
+  transition: all 0.3s;
+  content: "TẮT";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px !important;
+  left: inherit !important;
+}
+.page3__checkbox:checked ~ .page3__labelBox:before {
+  content: "BẬT";
+  left: 10px !important;
+  right: inherit !important;
+}
+.page3__labelBox:after {
+  transition: all 0.3s;
+  content: "";
+  width: calc(30px - 7px);
+  height: calc(30px - 7px);
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  left: calc(7px - 3px);
+}
+.page3__checkbox:checked ~ .page3__labelBox:after {
+  right: calc(7px - 3px);
+  left: inherit !important;
 }
 
 /*# sourceMappingURL=style.css.map */

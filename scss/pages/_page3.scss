@@ -1,0 +1,55 @@
+.page3{
+  &__checkbox{
+    display: none;
+  }
+  &__labelBox{
+    $h:30px;
+    position: relative;
+    min-height: #{$h};
+    min-width: 75px;
+    background-color: #999;
+    display: inline-flex;
+    color: #FFFFFF;
+    transition: all .3s;
+    cursor: pointer;
+    .page3__checkbox:checked ~ &{
+      background-color: #00b342;
+    }
+    &:before{
+      font-size: 14px;
+      transition: all .3s;
+      content: "TẮT";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      $x:10px;
+      right: #{$x} !important;
+      left: inherit !important;
+      .page3__checkbox:checked ~ &{
+        content: "BẬT";
+        left: #{$x} !important;
+        right: inherit !important;
+      }
+    }
+    &:after{
+      transition: all .3s;
+      $y:7px;
+      content: "";
+      width: calc(#{$h} - #{$y});
+      height: calc(#{$h} - #{$y});
+      border-radius: 50%;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      $z: calc(#{$y} - 3px);
+      left: #{$z};
+      .page3__checkbox:checked ~ &{
+        right: #{$z};
+        left: inherit !important;
+
+      }
+    }
+  }
+}
